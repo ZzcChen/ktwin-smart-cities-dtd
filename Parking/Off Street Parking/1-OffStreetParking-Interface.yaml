@@ -435,4 +435,5 @@ spec:
         containers:
         - image: ghcr.io/open-digital-twin/ktwin-parking-service:0.1
           imagePullPolicy: IfNotPresent
-          name: off-street-parking-service
+          name: city-pole
+          resources: {}

@@ -9,6 +9,8 @@ spec:
   extendsInterface: s4city-city-cityfurniture
   id: city-pole
   relationships:
+  - name: refNeighborhood
+    interface: s4city-city-neighbourhood
   - name: refStreetlight
     interface: ngsi-ld-city-streetlight
     aggregateData: true

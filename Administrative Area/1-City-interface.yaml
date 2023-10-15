@@ -10,13 +10,6 @@ spec:
   displayName: City
   extendsInterface: s4city-city-administrativearea
   id: s4city-city-city
-status: {}
----
-apiVersion: dtd.ktwin/v0
-kind: TwinInstance
-metadata:
-  name: city-001
-  namespace: ktwin
-spec:
-  interface: s4city-city-city
-status: {}
+  relationships:
+  - name: neighborhoods
+    interface: s4city-city-neighbourhood

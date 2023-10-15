@@ -74,31 +74,17 @@ spec:
   - maxMultiplicity: 1
     name: refdevice
     interface: ngsi-ld-city-device
+  service:
+    autoScaling:
+      maxScale: 20
+      target: 1
+      metric: "concurrency"
+    template:
+      spec:
+        containers:
+        - image: ghcr.io/open-digital-twin/ktwin-parking-spot-service:0.1
+          imagePullPolicy: IfNotPresent
+          name: city-pole
+          resources: {}
+
 status: {}
----
-# apiVersion: dtd.ktwin/v0
-# kind: TwinInstance
-# metadata:
-#   name: ngsi-ld-city-parkingspot-001
-#   namespace: ktwin
-# spec:
-#   interface: ngsi-ld-city-parkingspot
-#   template:
-#     metadata:
-    
-#     spec:
-#       containers:
-#       - image: dev.local/ktwin/edge-service:0.1
-#         imagePullPolicy: IfNotPresent
-#         name: ngsi-ld-city-parkingspot-001
-#         resources: {}
-#   twinInstanceRelationships:
-#   - name: refParkingGroup-001
-#     interface: ngsi-ld-city-parkinggroup-001
-#   - name: refOnStreetParking-001
-#     interface: ngsi-ld-city-onstreetparking-001
-#   - name: refOffStreetParking-001
-#     interface: ngsi-ld-city-offstreetparking-001
-#   - name: refdevice-001
-#     interface: ngsi-ld-city-device-001
-# status: {}
