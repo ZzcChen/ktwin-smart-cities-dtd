@@ -1,0 +1,33 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: geosparql-geometry
+  namespace: ktwin
+spec:
+  description: The class represents the top-level geometry type. This class is equivalent
+    to the UML class GM_Object defined in ISO 19107, and it is superclass of all geometry
+    types. GeoSPARQL 1.0 is an OGC Standard.Copyright (c) 2012 Open Geospatial Consortium.
+  displayName: Geometry
+  extendsInterface: geosparql-spatialobject
+  id: geosparql-geometry
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: geosparql-geometry-001
+#   namespace: ktwin
+# spec:
+#   interface: geosparql-geometry
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: geosparql-geometry-001
+#         resources: {}
+# status: {}

@@ -1,0 +1,34 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: ngsi-ld-city-totalspotnumber
+  namespace: ktwin
+spec:
+  displayName: TotalSpotNumber
+  id: ngsi-ld-city-totalspotnumber
+  properties:
+  - name: totalSpotNumber
+    schema:
+      primitiveType: integer
+    writable: true
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-totalspotnumber-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-totalspotnumber
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-totalspotnumber-001
+#         resources: {}
+# status: {}

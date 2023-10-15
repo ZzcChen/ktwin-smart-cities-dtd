@@ -1,0 +1,146 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: ngsi-ld-city-contactpoint
+  namespace: ktwin
+spec:
+  comment: Model 'ContactPoint' from Schema.org. See https://schema.org/ContactPoint.
+    For use as component in other interfaces
+  description: A contact point—for example, a Customer Complaints department.
+  displayName: Contact point
+  id: ngsi-ld-city-contactpoint
+  properties:
+  - comment: 'Schema.org Type: URL'
+    description: An additional type for the item, typically used for adding more specific
+      types from external vocabularies in microdata syntax. This is a relationship
+      between something and a class that the thing is in. In RDFa syntax, it is better
+      to use the native RDFa syntax - the 'typeof' attribute - for multiple types.
+      Schema.org tools may have only weaker understanding of extra types, in particular
+      those defined externally.
+    displayName: Additional type
+    name: additionalType
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: Text'
+    description: An alias for the item.
+    displayName: Alternate name
+    name: alternateName
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: AdministrativeArea or GeoShape or Place or Text'
+    description: The geographic area where a service or offered item is provided.
+      Supersedes serviceArea.
+    displayName: Area served
+    name: areaServed
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: Language or Text'
+    description: A language someone may use with or at the item, service or place.
+      Please use one of the language codes from the IETF BCP 47 standard. See also
+      inLanguage
+    displayName: Available language
+    name: availableLanguage
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: ContactPointOption (Enumeration)'
+    description: An option available on this contact point (e.g. a toll-free number
+      or support for hearing-impaired callers).
+    displayName: Contact Option
+    name: contactOption
+    schema:
+      enumType:
+        enumValues:
+        - displayName: Hearing Impaired Supported
+          enumValue: HearingImpairedSupported
+          name: hearingImpairedSupported
+        - displayName: Toll free
+          enumValue: TollFree
+          name: tollFree
+        valueSchema: string
+    writable: true
+  - comment: 'Schema.org Type: Text'
+    description: A person or organization can have different contact points, for different
+      purposes. For example, a sales contact point, a PR contact point and so on.
+      This property is used to specify the kind of contact point.
+    displayName: Contact type
+    name: contactType
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: Text'
+    description: A description of the item.
+    displayName: Description
+    name: description
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: Text'
+    description: Email address.
+    displayName: Email
+    name: email
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: Text'
+    description: The fax number.
+    displayName: Fax number
+    name: faxNumber
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: Text'
+    description: The name of the item.
+    displayName: Name
+    name: name
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: Product or Text'
+    description: The product or service this support contact point is related to (such
+      as product support for a particular product line). This can be a specific product
+      or product line (e.g. "iPhone") or a general category of products or services
+      (e.g. "smartphones").
+    displayName: Product supported
+    name: productSupported
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: Text'
+    description: The telephone number.
+    displayName: Telephone
+    name: telephone
+    schema:
+      primitiveType: string
+    writable: true
+  - comment: 'Schema.org Type: URL'
+    description: URL of the item.
+    displayName: Url
+    name: url
+    schema:
+      primitiveType: string
+    writable: true
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-contactpoint-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-contactpoint
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-contactpoint-001
+#         resources: {}
+# status: {}
