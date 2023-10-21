@@ -1,0 +1,180 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-001
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-001
+    interface: ngsi-ld-city-parkinggroup-001
+  - name: refOnStreetParking-001
+    interface: ngsi-ld-city-onstreetparking-001
+  - name: refOffStreetParking-001
+    interface: ngsi-ld-city-offstreetparking-001
+  - name: refdevice-001
+    interface: ngsi-ld-city-device-001
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-002
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-002
+    interface: ngsi-ld-city-parkinggroup-002
+  - name: refOnStreetParking-002
+    interface: ngsi-ld-city-onstreetparking-002
+  - name: refOffStreetParking-002
+    interface: ngsi-ld-city-offstreetparking-002
+  - name: refdevice-002
+    interface: ngsi-ld-city-device-002
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-003
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-003
+    interface: ngsi-ld-city-parkinggroup-003
+  - name: refOnStreetParking-003
+    interface: ngsi-ld-city-onstreetparking-003
+  - name: refOffStreetParking-003
+    interface: ngsi-ld-city-offstreetparking-003
+  - name: refdevice-003
+    interface: ngsi-ld-city-device-003
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-004
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-004
+    interface: ngsi-ld-city-parkinggroup-004
+  - name: refOnStreetParking-004
+    interface: ngsi-ld-city-onstreetparking-004
+  - name: refOffStreetParking-004
+    interface: ngsi-ld-city-offstreetparking-004
+  - name: refdevice-004
+    interface: ngsi-ld-city-device-004
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-005
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-005
+    interface: ngsi-ld-city-parkinggroup-005
+  - name: refOnStreetParking-005
+    interface: ngsi-ld-city-onstreetparking-005
+  - name: refOffStreetParking-005
+    interface: ngsi-ld-city-offstreetparking-005
+  - name: refdevice-005
+    interface: ngsi-ld-city-device-005
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-006
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-006
+    interface: ngsi-ld-city-parkinggroup-006
+  - name: refOnStreetParking-006
+    interface: ngsi-ld-city-onstreetparking-006
+  - name: refOffStreetParking-006
+    interface: ngsi-ld-city-offstreetparking-006
+  - name: refdevice-006
+    interface: ngsi-ld-city-device-006
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-007
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-007
+    interface: ngsi-ld-city-parkinggroup-007
+  - name: refOnStreetParking-007
+    interface: ngsi-ld-city-onstreetparking-007
+  - name: refOffStreetParking-007
+    interface: ngsi-ld-city-offstreetparking-007
+  - name: refdevice-007
+    interface: ngsi-ld-city-device-007
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-008
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-008
+    interface: ngsi-ld-city-parkinggroup-008
+  - name: refOnStreetParking-008
+    interface: ngsi-ld-city-onstreetparking-008
+  - name: refOffStreetParking-008
+    interface: ngsi-ld-city-offstreetparking-008
+  - name: refdevice-008
+    interface: ngsi-ld-city-device-008
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-009
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-009
+    interface: ngsi-ld-city-parkinggroup-009
+  - name: refOnStreetParking-009
+    interface: ngsi-ld-city-onstreetparking-009
+  - name: refOffStreetParking-009
+    interface: ngsi-ld-city-offstreetparking-009
+  - name: refdevice-009
+    interface: ngsi-ld-city-device-009
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-onstreet-parkingspot-010
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-010
+    interface: ngsi-ld-city-parkinggroup-010
+  - name: refOnStreetParking-010
+    interface: ngsi-ld-city-onstreetparking-010
+  - name: refOffStreetParking-010
+    interface: ngsi-ld-city-offstreetparking-010
+  - name: refdevice-010
+    interface: ngsi-ld-city-device-010
+status: {}
+---
