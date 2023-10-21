@@ -1,0 +1,53 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: ngsi-ld-city-airqualitylevel
+  namespace: ktwin
+spec:
+  displayName: AirQualityLevel
+  id: ngsi-ld-city-airqualitylevel
+  properties:
+  - name: level
+    schema:
+      enumType:
+        enumValues:
+        - displayName: Good
+          enumValue: good
+          name: good
+        - displayName: Moderate
+          enumValue: moderate
+          name: moderate
+        - displayName: UnhealthyForSensitiveGroups
+          enumValue: unhealthyForSensitiveGroups
+          name: unhealthyForSensitiveGroups
+        - displayName: Unhealthy
+          enumValue: unhealthy
+          name: unhealthy
+        - displayName: VeryUnhealthy
+          enumValue: veryUnhealthy
+          name: veryUnhealthy
+        - displayName: Hazardous
+          enumValue: hazardous
+          name: hazardous
+        valueSchema: string
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-airqualitylevel-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-airqualitylevel
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-airqualitylevel-001
+#         resources: {}
+# status: {}

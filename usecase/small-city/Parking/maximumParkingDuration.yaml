@@ -2,23 +2,25 @@ apiVersion: dtd.ktwin/v0
 kind: TwinInterface
 metadata:
 
-  name: s4city-city-cityobject
+  name: ngsi-ld-city-maximumparkingduration
   namespace: ktwin
 spec:
-  description: Generic class for describing city objects.
-  displayName: City Object
-  extendsInterface: geosparql-feature
-  id: s4city-city-cityobject
+  displayName: MaximumParkingDuration
+  id: ngsi-ld-city-maximumparkingduration
+  properties:
+  - name: maximumParkingDuration
+    schema:
+      primitiveType: string
 status: {}
 ---
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:
 
-#   name: s4city-city-cityobject-001
+#   name: ngsi-ld-city-maximumparkingduration-001
 #   namespace: ktwin
 # spec:
-#   interface: s4city-city-cityobject
+#   interface: ngsi-ld-city-maximumparkingduration
 #   template:
 #     metadata:
     
@@ -26,6 +28,6 @@ status: {}
 #       containers:
 #       - image: dev.local/ktwin/edge-service:0.1
 #         imagePullPolicy: IfNotPresent
-#         name: s4city-city-cityobject-001
+#         name: ngsi-ld-city-maximumparkingduration-001
 #         resources: {}
 # status: {}

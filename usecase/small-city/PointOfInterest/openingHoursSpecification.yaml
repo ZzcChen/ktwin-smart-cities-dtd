@@ -1,0 +1,65 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: ngsi-ld-city-openinghourspecification
+  namespace: ktwin
+spec:
+  displayName: Opening hours specification
+  id: ngsi-ld-city-openinghourspecification
+  properties:
+  - displayName: Opening hours on Monday
+    name: mondayOpening
+    schema:
+      primitiveType: ngsi_ld:city:openinghoursForDay
+    writable: true
+  - displayName: Opening hours on Tuesday
+    name: tuesdayOpening
+    schema:
+      primitiveType: ngsi_ld:city:openinghoursForDay
+    writable: true
+  - displayName: Opening hours on Wednesday
+    name: wednesdayOpening
+    schema:
+      primitiveType: ngsi_ld:city:openinghoursForDay
+    writable: true
+  - displayName: Opening hours on Thursday
+    name: thursdayOpening
+    schema:
+      primitiveType: ngsi_ld:city:openinghoursForDay
+    writable: true
+  - displayName: Opening hours on Friday
+    name: fridayOpening
+    schema:
+      primitiveType: ngsi_ld:city:openinghoursForDay
+    writable: true
+  - displayName: Opening hours on Saturday
+    name: saturdayOpening
+    schema:
+      primitiveType: ngsi_ld:city:openinghoursForDay
+    writable: true
+  - displayName: Opening hours on Sunday
+    name: sundayOpening
+    schema:
+      primitiveType: ngsi_ld:city:openinghoursForDay
+    writable: true
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-openinghourspecification-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-openinghourspecification
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-openinghourspecification-001
+#         resources: {}
+# status: {}

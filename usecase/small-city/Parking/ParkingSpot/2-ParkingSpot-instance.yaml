@@ -1,0 +1,17 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-parkingspot-001
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-parkingspot
+  twinInstanceRelationships:
+  - name: refParkingGroup-001
+    interface: ngsi-ld-city-parkinggroup-001
+  - name: refOnStreetParking-001
+    interface: ngsi-ld-city-onstreetparking-001
+  - name: refOffStreetParking-001
+    interface: ngsi-ld-city-offstreetparking-001
+  - name: refdevice-001
+    interface: ngsi-ld-city-device-001
+status: {}

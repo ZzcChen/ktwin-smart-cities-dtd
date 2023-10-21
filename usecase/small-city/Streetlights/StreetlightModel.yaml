@@ -1,0 +1,181 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: ngsi-ld-city-streetlightmodel
+  namespace: ktwin
+spec:
+  displayName: StreetlightModel
+  extendsInterface: ngsi-ld-city-ngsildbasemodel
+  id: ngsi-ld-city-streetlightmodel
+  properties:
+  - description: Maximum power consumption supported by the lantern. Units:'Watts
+      (W)'.
+    name: maxPowerConsumption
+    schema:
+      primitiveType: double
+    writable: true
+  - name: minPowerConsumption
+    schema:
+      primitiveType: double
+    writable: true
+  - name: columnBrandName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: columnModelName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: columnManufacturerName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: columnMadeOf
+    schema:
+      enumType:
+        enumValues:
+        - displayName: steel
+          enumValue: steel
+          name: steel
+        - displayName: aluminium
+          enumValue: aluminium
+          name: aluminium
+        - displayName: wood
+          enumValue: wood
+          name: wood
+        - displayName: other
+          enumValue: other
+          name: other
+        valueSchema: string
+    writable: true
+  - name: columnColor
+    schema:
+      primitiveType: string
+    writable: true
+  - name: lanternModelName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: lanternBrandName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: lanternManufacturerName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: lanternWeight
+    schema:
+      primitiveType: double
+    writable: true
+  - name: lampModelName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: lampBrandName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: lampManufacturerName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: lampWeight
+    schema:
+      primitiveType: double
+    writable: true
+  - name: workingLife
+    schema:
+      primitiveType: integer
+    writable: true
+  - name: lampTechnology
+    schema:
+      enumType:
+        enumValues:
+        - displayName: LED
+          enumValue: LED
+          name: LED
+        - displayName: LPS
+          enumValue: LPS
+          name: LPS
+        - displayName: HPS
+          enumValue: HPS
+          name: HPS
+        valueSchema: string
+    writable: true
+  - description: Correlated color temperature of the lamp. Units:'Kelvin degrees (K)'
+    name: colorTemperature
+    schema:
+      primitiveType: integer
+    writable: true
+  - description: Color rendering index of the lamp.
+    name: colorRenderingIndex
+    schema:
+      primitiveType: integer
+    writable: true
+  - description: Maximum light output which can be provided by the lamp. Units:'Lumens
+      (lm)'.
+    name: luminousFlux
+    schema:
+      primitiveType: integer
+    writable: true
+  - name: powerConsumption
+    schema:
+      primitiveType: double
+    writable: true
+  - description: A list of standards to which this streetlight model is compliant
+      with.
+    name: compliantWith
+    schema:
+      primitiveType: string
+  - name: category
+    schema:
+      enumType:
+        enumValues:
+        - displayName: postTop
+          enumValue: postTop
+          name: postTop
+        - displayName: bollard
+          enumValue: bollard
+          name: bollard
+        - displayName: lampost
+          enumValue: lamppost
+          name: lamppost
+        - displayName: lightTower
+          enumValue: lightTower
+          name: lightTower
+        - displayName: FlashingBeacon
+          enumValue: flashingBeacon
+          name: flashingBeacon
+        - displayName: sideEntry
+          enumValue: sideEntry
+          name: sideEntry
+        - displayName: signLight
+          enumValue: signLight
+          name: signLight
+        - displayName: ornamentLantern
+          enumValue: ornamentLantern
+          name: ornamentLantern
+        valueSchema: string
+    writable: true
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-streetlightmodel-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-streetlightmodel
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-streetlightmodel-001
+#         resources: {}
+# status: {}

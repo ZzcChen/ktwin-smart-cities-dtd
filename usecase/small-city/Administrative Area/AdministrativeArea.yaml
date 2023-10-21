@@ -1,0 +1,33 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: s4city-city-administrativearea
+  namespace: ktwin
+spec:
+  description: An administrative division, unit, entity, area or region, also referred
+    to as a subnational entity, constituent unit, or country subdivision, is a portion
+    of a country or other region delineated for the purpose of administration. (https://en.wikipedia.org/wiki/Administrative_division)
+  displayName: Administrative Area
+  extendsInterface: geosparql-feature
+  id: s4city-city-administrativearea
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: s4city-city-administrativearea-001
+#   namespace: ktwin
+# spec:
+#   interface: s4city-city-administrativearea
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: s4city-city-administrativearea-001
+#         resources: {}
+# status: {}

@@ -1,0 +1,11 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-001
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel-001
+    interface: ngsi-ld-city-devicemodel-001
+status: {}
