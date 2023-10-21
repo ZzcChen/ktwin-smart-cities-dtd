@@ -125,7 +125,7 @@ spec:
       primitiveType: string
     writable: true
 status: {}
----
+#---
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:

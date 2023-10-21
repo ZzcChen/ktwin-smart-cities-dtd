@@ -1,7 +1,6 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInterface
 metadata:
-
   name: ngsi-ld-city-noiselevelobserved
   namespace: ktwin
 spec:

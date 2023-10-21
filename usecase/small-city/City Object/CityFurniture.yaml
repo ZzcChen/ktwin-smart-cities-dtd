@@ -8,7 +8,7 @@ spec:
   extendsInterface: s4city-city-cityobject
   id: s4city-city-cityfurniture
 status: {}
----
+#---
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:

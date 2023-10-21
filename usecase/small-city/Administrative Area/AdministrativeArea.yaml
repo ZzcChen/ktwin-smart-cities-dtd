@@ -12,7 +12,7 @@ spec:
   extendsInterface: geosparql-feature
   id: s4city-city-administrativearea
 status: {}
----
+#---
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:

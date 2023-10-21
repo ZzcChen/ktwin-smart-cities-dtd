@@ -1,7 +1,6 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInterface
 metadata:
-
   name: ngsi-ld-city-airqualitylevel
   namespace: ktwin
 spec:
@@ -32,22 +31,4 @@ spec:
           name: hazardous
         valueSchema: string
 status: {}
----
-# apiVersion: dtd.ktwin/v0
-# kind: TwinInstance
-# metadata:
 
-#   name: ngsi-ld-city-airqualitylevel-001
-#   namespace: ktwin
-# spec:
-#   interface: ngsi-ld-city-airqualitylevel
-#   template:
-#     metadata:
-    
-#     spec:
-#       containers:
-#       - image: dev.local/ktwin/edge-service:0.1
-#         imagePullPolicy: IfNotPresent
-#         name: ngsi-ld-city-airqualitylevel-001
-#         resources: {}
-# status: {}

@@ -9,7 +9,7 @@ spec:
   extendsInterface: geosparql-feature
   id: s4city-city-cityobject
 status: {}
----
+#---
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:

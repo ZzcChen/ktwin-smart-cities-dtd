@@ -99,26 +99,3 @@ spec:
     name: refWeatherObserved
     interface: ngsi-ld-city-weatherobserved
 status: {}
----
-# apiVersion: dtd.ktwin/v0
-# kind: TwinInstance
-# metadata:
-#   name: ngsi-ld-city-airqualityobserved-001
-#   namespace: ktwin
-# spec:
-#   interface: ngsi-ld-city-airqualityobserved
-#   template:
-#     metadata:
-    
-#     spec:
-#       containers:
-#       - image: dev.local/ktwin/edge-service:0.1
-#         imagePullPolicy: IfNotPresent
-#         name: ngsi-ld-city-airqualityobserved-001
-#         resources: {}
-#   twinInstanceRelationships:
-#   - name: refDevice-001
-#     interface: ngsi-ld-city-device-001
-#   - name: refWeatherObserved-001
-#     interface: ngsi-ld-city-weatherobserved-001
-# status: {}
