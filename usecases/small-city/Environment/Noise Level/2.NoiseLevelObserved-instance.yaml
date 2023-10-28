@@ -7,9 +7,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-001
-    interface: ngsi-ld-city-device-001
+    instance: ngsi-ld-city-device-001
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-001
-    interface: ngsi-ld-city-weatherobserved-001
+    instance: ngsi-ld-city-weatherobserved-001
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -21,9 +23,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-002
-    interface: ngsi-ld-city-device-002
+    instance: ngsi-ld-city-device-002
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-002
-    interface: ngsi-ld-city-weatherobserved-002
+    instance: ngsi-ld-city-weatherobserved-002
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -35,9 +39,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-003
-    interface: ngsi-ld-city-device-003
+    instance: ngsi-ld-city-device-003
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-003
-    interface: ngsi-ld-city-weatherobserved-003
+    instance: ngsi-ld-city-weatherobserved-003
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -49,9 +55,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-004
-    interface: ngsi-ld-city-device-004
+    instance: ngsi-ld-city-device-004
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-004
-    interface: ngsi-ld-city-weatherobserved-004
+    instance: ngsi-ld-city-weatherobserved-004
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -63,9 +71,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-005
-    interface: ngsi-ld-city-device-005
+    instance: ngsi-ld-city-device-005
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-005
-    interface: ngsi-ld-city-weatherobserved-005
+    instance: ngsi-ld-city-weatherobserved-005
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -77,9 +87,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-006
-    interface: ngsi-ld-city-device-006
+    instance: ngsi-ld-city-device-006
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-006
-    interface: ngsi-ld-city-weatherobserved-006
+    instance: ngsi-ld-city-weatherobserved-006
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -91,9 +103,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-007
-    interface: ngsi-ld-city-device-007
+    instance: ngsi-ld-city-device-007
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-007
-    interface: ngsi-ld-city-weatherobserved-007
+    instance: ngsi-ld-city-weatherobserved-007
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -105,9 +119,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-008
-    interface: ngsi-ld-city-device-008
+    instance: ngsi-ld-city-device-008
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-008
-    interface: ngsi-ld-city-weatherobserved-008
+    instance: ngsi-ld-city-weatherobserved-008
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -119,9 +135,11 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-009
-    interface: ngsi-ld-city-device-009
+    instance: ngsi-ld-city-device-009
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-009
-    interface: ngsi-ld-city-weatherobserved-009
+    instance: ngsi-ld-city-weatherobserved-009
+    interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -133,7 +151,9 @@ spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
   - name: refDevice-010
-    interface: ngsi-ld-city-device-010
+    instance: ngsi-ld-city-device-010
+    interface: ngsi-ld-city-device
   - name: refWeatherObserverd-010
-    interface: ngsi-ld-city-weatherobserved-010
+    instance: ngsi-ld-city-weatherobserved-010
+    interface: ngsi-ld-city-weatherobserved
 status: {}
