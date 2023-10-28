@@ -7,5 +7,6 @@ spec:
   interface: ngsi-ld-city-device
   twinInstanceRelationships:
   - name: refDeviceModel-001
-    interface: ngsi-ld-city-devicemodel-001
+    instance: ngsi-ld-city-devicemodel-001
+    interface: ngsi-ld-city-devicemodel
 status: {}
