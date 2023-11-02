@@ -385,12 +385,6 @@ spec:
   - name: occupiedSpotNumber
     schema:
       primitiveType: integer
-  - name: vehicleEntranceCount
-    schema:
-      primitiveType: integer
-  - name: vehicleExitCount
-    schema:
-      primitiveType: integer
   - name: status
     schema:
       enumType:
