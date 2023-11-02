@@ -8,10 +8,11 @@ spec:
   twinInstanceRelationships:
   - name: refParkingGroup-001
     interface: ngsi-ld-city-parkinggroup-001
-  - name: refOnStreetParking-001
+    instance: ngsi-ld-city-parkinggroup
+  - name: refOnStreetParking
     interface: ngsi-ld-city-onstreetparking-001
-  - name: refOffStreetParking-001
+  - name: refOffStreetParking
     interface: ngsi-ld-city-offstreetparking-001
-  - name: refdevice-001
+  - name: refdevice
     interface: ngsi-ld-city-device-001
 status: {}

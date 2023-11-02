@@ -6,16 +6,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-001
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-001
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-001
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-001
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-001
+  - name: refDevice
     instance: ngsi-ld-city-device-001
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-001
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-001
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -28,16 +28,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-002
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-002
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-002
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-002
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-002
+  - name: refDevice
     instance: ngsi-ld-city-device-002
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-002
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-002
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -50,16 +50,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-003
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-003
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-003
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-003
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-003
+  - name: refDevice
     instance: ngsi-ld-city-device-003
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-003
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-003
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -72,16 +72,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-004
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-004
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-004
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-004
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-004
+  - name: refDevice
     instance: ngsi-ld-city-device-004
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-004
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-004
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -94,16 +94,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-005
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-005
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-005
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-005
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-005
+  - name: refDevice
     instance: ngsi-ld-city-device-005
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-005
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-005
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -116,16 +116,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-006
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-006
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-006
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-006
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-006
+  - name: refDevice
     instance: ngsi-ld-city-device-006
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-006
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-006
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -138,16 +138,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-007
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-007
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-007
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-007
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-007
+  - name: refDevice
     instance: ngsi-ld-city-device-007
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-007
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-007
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -160,16 +160,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-008
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-008
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-008
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-008
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-008
+  - name: refDevice
     instance: ngsi-ld-city-device-008
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-008
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-008
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -182,16 +182,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-009
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-009
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-009
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-009
     interface: ngsi-ld-city-streetlightcontrolcabinet
   - name: refDevice-009
-    instance: ngsi-ld-city-device-009
+    instance: ngsi-ld-city-device
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-009
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-009
     interface: ngsi-ld-city-streetlightgroup
 status: {}
@@ -204,16 +204,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-streetlight
   twinInstanceRelationships:
-  - name: refStreetlightModel-010
+  - name: refStreetlightModel
     instance: ngsi-ld-city-streetlightmodel-010
     interface: ngsi-ld-city-streetlightmodel
-  - name: refStreetlightControlCabinet-010
+  - name: refStreetlightControlCabinet
     instance: ngsi-ld-city-streetlightcontrolcabinet-010
     interface: ngsi-ld-city-streetlightcontrolcabinet
-  - name: refDevice-010
+  - name: refDevice
     instance: ngsi-ld-city-device-010
     interface: ngsi-ld-city-device
-  - name: refStreetlightGroup-010
+  - name: refStreetlightGroup
     instance: ngsi-ld-city-streetlightgroup-010
     interface: ngsi-ld-city-streetlightgroup
 status: {}

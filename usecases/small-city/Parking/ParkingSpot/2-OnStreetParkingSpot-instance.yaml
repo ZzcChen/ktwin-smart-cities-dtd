@@ -6,16 +6,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-001
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-001
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-001
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-001
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-001
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-001
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-001
+  - name: refdevice
     instance: ngsi-ld-city-device-001
     interface: ngsi-ld-city-device
 status: {}
@@ -28,16 +28,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-002
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-002
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-002
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-002
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-002
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-002
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-002
+  - name: refdevice
     instance: ngsi-ld-city-device-002
     interface: ngsi-ld-city-device
 status: {}
@@ -50,16 +50,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-003
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-003
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-003
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-003
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-003
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-003
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-003
+  - name: refdevice
     instance: ngsi-ld-city-device-003
     interface: ngsi-ld-city-device
 status: {}
@@ -72,16 +72,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-004
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-004
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-004
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-004
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-004
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-004
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-004
+  - name: refdevice
     instance: ngsi-ld-city-device-004
     interface: ngsi-ld-city-device
 status: {}
@@ -94,16 +94,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-005
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-005
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-005
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-005
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-005
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-005
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-005
+  - name: refdevice
     instance: ngsi-ld-city-device-005
     interface: ngsi-ld-city-device
 status: {}
@@ -116,16 +116,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-006
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-006
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-006
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-006
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-006
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-006
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-006
+  - name: refdevice
     instance: ngsi-ld-city-device-006
     interface: ngsi-ld-city-device
 status: {}
@@ -138,16 +138,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-007
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-007
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-007
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-007
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-007
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-007
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-007
+  - name: refdevice
     instance: ngsi-ld-city-device-007
     interface: ngsi-ld-city-device
 status: {}
@@ -160,16 +160,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-008
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-008
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-008
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-008
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-008
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-008
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-008
+  - name: refdevice
     instance: ngsi-ld-city-device-008
     interface: ngsi-ld-city-device
 status: {}
@@ -182,16 +182,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-009
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-009
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-009
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-009
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-009
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-009
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-009
+  - name: refdevice
     instance: ngsi-ld-city-device-009
     interface: ngsi-ld-city-device
 status: {}
@@ -204,16 +204,16 @@ metadata:
 spec:
   interface: ngsi-ld-city-parkingspot
   twinInstanceRelationships:
-  - name: refParkingGroup-010
+  - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-010
     interface: ngsi-ld-city-parkinggroup
-  - name: refOnStreetParking-010
+  - name: refOnStreetParking
     instance: ngsi-ld-city-onstreetparking-010
     interface: ngsi-ld-city-onstreetparking
-  - name: refOffStreetParking-010
+  - name: refOffStreetParking
     instance: ngsi-ld-city-offstreetparking-010
     interface: ngsi-ld-city-offstreetparking
-  - name: refdevice-010
+  - name: refdevice
     instance: ngsi-ld-city-device-010
     interface: ngsi-ld-city-device
 status: {}
