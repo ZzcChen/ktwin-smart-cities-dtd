@@ -10,6 +10,18 @@ spec:
   displayName: Neighbourhood
   extendsInterface: s4city-city-administrativearea
   id: s4city-city-neighbourhood
+  commands:
+  - name: updateairqualityindex
+    comment: Command used update the air quality index in the neighborhood
+    request:
+      name: updateAirQualityIndexRequest
+      schema:
+        complexType:
+          type: object
+          fields:
+          - name: aqiLevel
+            schema:
+              primitiveType: double
   relationships:
   - name: citypoles
     interface: city-pole
