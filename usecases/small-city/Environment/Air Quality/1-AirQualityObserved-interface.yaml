@@ -98,4 +98,7 @@ spec:
   - maxMultiplicity: 1
     name: refWeatherObserved
     interface: ngsi-ld-city-weatherobserved
+  - maxMultiplicity: 1
+    name: citypole
+    interface: city-pole
 status: {}

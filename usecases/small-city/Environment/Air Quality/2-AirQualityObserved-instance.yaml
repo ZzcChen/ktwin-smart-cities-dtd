@@ -6,12 +6,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-001
+  - name: refDevice
     instance: ngsi-ld-city-device-001
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-001
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-001
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-001
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -22,12 +25,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-002
+  - name: refDevice
     instance: ngsi-ld-city-device-002
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-002
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-002
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-002
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -38,12 +44,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-003
+  - name: refDevice
     instance: ngsi-ld-city-device-003
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-003
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-003
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-003
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -54,12 +63,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-004
+  - name: refDevice
     instance: ngsi-ld-city-device-004
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-004
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-004
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-004
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -70,12 +82,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-005
+  - name: refDevice
     instance: ngsi-ld-city-device-005
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-005
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-005
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-005
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -86,12 +101,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-006
+  - name: refDevice
     instance: ngsi-ld-city-device-006
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-006
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-006
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-006
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -102,12 +120,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-007
+  - name: refDevice
     instance: ngsi-ld-city-device-007
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-007
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-007
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-007
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -118,12 +139,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-008
+  - name: refDevice
     instance: ngsi-ld-city-device-008
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-008
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-008
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-008
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -134,12 +158,15 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-009
+  - name: refDevice
     instance: ngsi-ld-city-device-009
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-009
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-009
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-009
+    interface: city-pole
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -150,10 +177,13 @@ metadata:
 spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
-  - name: refDevice-010
+  - name: refDevice
     instance: ngsi-ld-city-device-010
     interface: ngsi-ld-city-device
-  - name: refWeatherObserved-010
+  - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-010
     interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-010
+    interface: city-pole
 status: {}
