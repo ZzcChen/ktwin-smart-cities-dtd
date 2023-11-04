@@ -21,10 +21,19 @@ spec:
           fields:
           - name: aqiLevel
             schema:
-              primitiveType: double
+              primitiveType: string
   relationships:
   - name: citypoles
     interface: city-pole
+  properties:
+  - name: aqiLevel
+    schema:
+      primitiveType: string
+    writable: true
+  - name: dateObserved
+    schema:
+      primitiveType: dateTime
+    writable: true
   service:
     autoScaling:
       maxScale: 20
