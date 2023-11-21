@@ -37,7 +37,9 @@ spec:
   service:
     autoScaling:
       maxScale: 20
-      target: 1
+      target: 5
+      targetUtilizationPercentage: 65
+      parallelism: 100
       metric: "concurrency"
     template:
       spec:
