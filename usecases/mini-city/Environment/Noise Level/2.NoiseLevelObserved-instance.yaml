@@ -1,159 +1,159 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-001
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00001
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-001
-    instance: ngsi-ld-city-device-001
+  - name: refDevice-nb001-p00001
+    instance: ngsi-ld-city-device-nb001-p00001
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-001
-    instance: ngsi-ld-city-weatherobserved-001
+  - name: refWeatherObserved-nb001-p00001
+    instance: ngsi-ld-city-weatherobserved-nb001-p00001
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-002
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00002
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-002
-    instance: ngsi-ld-city-device-002
+  - name: refDevice-nb001-p00002
+    instance: ngsi-ld-city-device-nb001-p00002
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-002
-    instance: ngsi-ld-city-weatherobserved-002
+  - name: refWeatherObserved-nb001-p00002
+    instance: ngsi-ld-city-weatherobserved-nb001-p00002
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-003
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00003
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-003
-    instance: ngsi-ld-city-device-003
+  - name: refDevice-nb001-p00003
+    instance: ngsi-ld-city-device-nb001-p00003
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-003
-    instance: ngsi-ld-city-weatherobserved-003
+  - name: refWeatherObserved-nb001-p00003
+    instance: ngsi-ld-city-weatherobserved-nb001-p00003
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-004
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00004
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-004
-    instance: ngsi-ld-city-device-004
+  - name: refDevice-nb001-p00004
+    instance: ngsi-ld-city-device-nb001-p00004
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-004
-    instance: ngsi-ld-city-weatherobserved-004
+  - name: refWeatherObserved-nb001-p00004
+    instance: ngsi-ld-city-weatherobserved-nb001-p00004
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-005
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00005
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-005
-    instance: ngsi-ld-city-device-005
+  - name: refDevice-nb001-p00005
+    instance: ngsi-ld-city-device-nb001-p00005
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-005
-    instance: ngsi-ld-city-weatherobserved-005
+  - name: refWeatherObserved-nb001-p00005
+    instance: ngsi-ld-city-weatherobserved-nb001-p00005
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-006
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00006
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-006
-    instance: ngsi-ld-city-device-006
+  - name: refDevice-nb001-p00006
+    instance: ngsi-ld-city-device-nb001-p00006
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-006
-    instance: ngsi-ld-city-weatherobserved-006
+  - name: refWeatherObserved-nb001-p00006
+    instance: ngsi-ld-city-weatherobserved-nb001-p00006
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-007
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00007
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-007
-    instance: ngsi-ld-city-device-007
+  - name: refDevice-nb001-p00007
+    instance: ngsi-ld-city-device-nb001-p00007
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-007
-    instance: ngsi-ld-city-weatherobserved-007
+  - name: refWeatherObserved-nb001-p00007
+    instance: ngsi-ld-city-weatherobserved-nb001-p00007
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-008
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00008
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-008
-    instance: ngsi-ld-city-device-008
+  - name: refDevice-nb001-p00008
+    instance: ngsi-ld-city-device-nb001-p00008
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-008
-    instance: ngsi-ld-city-weatherobserved-008
+  - name: refWeatherObserved-nb001-p00008
+    instance: ngsi-ld-city-weatherobserved-nb001-p00008
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-009
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00009
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-009
-    instance: ngsi-ld-city-device-009
+  - name: refDevice-nb001-p00009
+    instance: ngsi-ld-city-device-nb001-p00009
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-009
-    instance: ngsi-ld-city-weatherobserved-009
+  - name: refWeatherObserved-nb001-p00009
+    instance: ngsi-ld-city-weatherobserved-nb001-p00009
     interface: ngsi-ld-city-weatherobserved
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-noiselevelobserved-010
+  name: ngsi-ld-city-noiselevelobserved-nb001-p00010
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-noiselevelobserved
   twinInstanceRelationships:
-  - name: refDevice-010
-    instance: ngsi-ld-city-device-010
+  - name: refDevice-nb001-p00010
+    instance: ngsi-ld-city-device-nb001-p00010
     interface: ngsi-ld-city-device
-  - name: refWeatherObserverd-010
-    instance: ngsi-ld-city-weatherobserved-010
+  - name: refWeatherObserved-nb001-p00010
+    instance: ngsi-ld-city-weatherobserved-nb001-p00010
     interface: ngsi-ld-city-weatherobserved
 status: {}
