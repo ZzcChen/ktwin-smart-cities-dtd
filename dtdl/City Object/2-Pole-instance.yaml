@@ -6,9 +6,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-001
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -37,9 +37,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-002
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -68,9 +68,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-003
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -99,9 +99,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-004
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -130,9 +130,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-005
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -161,9 +161,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-006
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -192,9 +192,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-007
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -223,9 +223,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-008
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -254,9 +254,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-009
     interface: ngsi-ld-city-streetlight
     name: refStreetlight
@@ -285,9 +285,9 @@ metadata:
 spec:
   interface: city-pole
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
-    name: refNeighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
   - instance: ngsi-ld-city-streetlight-010
     interface: ngsi-ld-city-streetlight
     name: refStreetlight

@@ -1,15 +1,15 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInterface
 metadata:
-  name: s4city-city-neighbourhood
+  name: s4city-city-neighborhood
   namespace: ktwin
 spec:
   description: A neighbourhood (British English), or neighborhood (American English;
     see spelling differences), is a geographically localised community within a larger
     city, town, suburb or rural area. (https://en.wikipedia.org/wiki/Neighbourhood)
-  displayName: Neighbourhood
+  displayName: Neighborhood
   extendsInterface: s4city-city-administrativearea
-  id: s4city-city-neighbourhood
+  id: s4city-city-neighborhood
   relationships:
   - name: citypoles
     interface: city-pole

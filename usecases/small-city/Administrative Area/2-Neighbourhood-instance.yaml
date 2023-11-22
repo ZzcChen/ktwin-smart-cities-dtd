@@ -1,7 +1,7 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: s4city-city-neighbourhood-001
+  name: s4city-city-neighborhood-001
   namespace: ktwin
 spec:
-  interface: s4city-city-neighbourhood
+  interface: s4city-city-neighborhood

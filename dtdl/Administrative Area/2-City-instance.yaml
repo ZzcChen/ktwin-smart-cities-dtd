@@ -6,6 +6,6 @@ metadata:
 spec:
   interface: s4city-city-city
   twinInstanceRelationships:
-  - instance: s4city-city-neighbourhood-001
-    interface: s4city-city-neighbourhood
+  - instance: s4city-city-neighborhood-001
+    interface: s4city-city-neighborhood
     name: neighborhoods
