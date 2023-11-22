@@ -1,7 +1,6 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInterface
 metadata:
-
   name: ngsi-ld-city-boatplacesavailable
   namespace: ktwin
 spec:
@@ -98,14 +97,12 @@ status: {}
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:
-
 #   name: ngsi-ld-city-boatplacesavailable-001
 #   namespace: ktwin
 # spec:
 #   interface: ngsi-ld-city-boatplacesavailable
 #   template:
 #     metadata:
-    
 #     spec:
 #       containers:
 #       - image: dev.local/ktwin/edge-service:0.1

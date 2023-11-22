@@ -1,7 +1,6 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInterface
 metadata:
-
   name: ngsi-ld-city-beach
   namespace: ktwin
 spec:
@@ -89,14 +88,12 @@ status: {}
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:
-
 #   name: ngsi-ld-city-beach-001
 #   namespace: ktwin
 # spec:
 #   interface: ngsi-ld-city-beach
 #   template:
 #     metadata:
-    
 #     spec:
 #       containers:
 #       - image: dev.local/ktwin/edge-service:0.1

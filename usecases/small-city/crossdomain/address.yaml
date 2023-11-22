@@ -1,7 +1,6 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInterface
 metadata:
-
   name: ngsi-ld-city-address
   namespace: ktwin
 spec:
@@ -37,14 +36,12 @@ status: {}
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:
-
 #   name: ngsi-ld-city-address-001
 #   namespace: ktwin
 # spec:
 #   interface: ngsi-ld-city-address
 #   template:
 #     metadata:
-    
 #     spec:
 #       containers:
 #       - image: dev.local/ktwin/edge-service:0.1

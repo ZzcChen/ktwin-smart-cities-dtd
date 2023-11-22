@@ -1,7 +1,6 @@
 apiVersion: dtd.ktwin/v0
 kind: TwinInterface
 metadata:
-
   name: ngsi-ld-city-allowedvehicletype
   namespace: ktwin
 spec:
@@ -69,14 +68,12 @@ status: {}
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:
-
 #   name: ngsi-ld-city-allowedvehicletype-001
 #   namespace: ktwin
 # spec:
 #   interface: ngsi-ld-city-allowedvehicletype
 #   template:
 #     metadata:
-    
 #     spec:
 #       containers:
 #       - image: dev.local/ktwin/edge-service:0.1

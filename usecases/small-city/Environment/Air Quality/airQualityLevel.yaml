@@ -31,4 +31,3 @@ spec:
           name: hazardous
         valueSchema: string
 status: {}
-

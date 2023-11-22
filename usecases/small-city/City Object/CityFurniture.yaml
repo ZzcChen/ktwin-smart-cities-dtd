@@ -12,14 +12,12 @@ status: {}
 # apiVersion: dtd.ktwin/v0
 # kind: TwinInstance
 # metadata:
-
 #   name: s4city-city-cityfurniture-001
 #   namespace: ktwin
 # spec:
 #   interface: s4city-city-cityfurniture
 #   template:
 #     metadata:
-    
 #     spec:
 #       containers:
 #       - image: dev.local/ktwin/edge-service:0.1
