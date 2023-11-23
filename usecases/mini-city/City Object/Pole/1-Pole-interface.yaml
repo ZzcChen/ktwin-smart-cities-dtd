@@ -13,13 +13,11 @@ spec:
     interface: s4city-city-neighborhood
   - name: refStreetlight
     interface: ngsi-ld-city-streetlight
-    aggregateData: true
   - name: refAirQualityObserved
     interface: ngsi-ld-city-airqualityobserved
     aggregateData: true
   - name: refNoiseLevel
     interface: ngsi-ld-city-noiselevelobserved
-    aggregateData: true
   - name: refWeather
     interface: ngsi-ld-city-weatherobserved
     aggregateData: true
@@ -28,7 +26,6 @@ spec:
     aggregateData: true
   - name: refEVChargingStation
     interface: ngsi-ld-city-evchargingstation
-    aggregateData: true
   service:
     autoScaling:
       maxScale: 20
