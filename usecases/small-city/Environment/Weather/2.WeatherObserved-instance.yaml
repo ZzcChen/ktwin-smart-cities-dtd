@@ -6,8 +6,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00001
-    instance: ngsi-ld-city-device-nb001-p00001
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00001
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -19,8 +19,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00002
-    instance: ngsi-ld-city-device-nb001-p00002
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00002
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -32,8 +32,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00003
-    instance: ngsi-ld-city-device-nb001-p00003
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00003
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -45,8 +45,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00004
-    instance: ngsi-ld-city-device-nb001-p00004
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00004
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -58,8 +58,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00005
-    instance: ngsi-ld-city-device-nb001-p00005
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00005
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -71,8 +71,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00006
-    instance: ngsi-ld-city-device-nb001-p00006
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00006
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -84,8 +84,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00007
-    instance: ngsi-ld-city-device-nb001-p00007
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00007
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -97,8 +97,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00008
-    instance: ngsi-ld-city-device-nb001-p00008
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00008
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -110,8 +110,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00009
-    instance: ngsi-ld-city-device-nb001-p00009
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00009
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -123,8 +123,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00010
-    instance: ngsi-ld-city-device-nb001-p00010
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00010
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -136,8 +136,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00011
-    instance: ngsi-ld-city-device-nb001-p00011
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00011
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -149,8 +149,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00012
-    instance: ngsi-ld-city-device-nb001-p00012
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00012
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -162,8 +162,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00013
-    instance: ngsi-ld-city-device-nb001-p00013
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00013
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -175,8 +175,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00014
-    instance: ngsi-ld-city-device-nb001-p00014
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00014
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -188,8 +188,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00015
-    instance: ngsi-ld-city-device-nb001-p00015
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00015
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -201,8 +201,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00016
-    instance: ngsi-ld-city-device-nb001-p00016
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00016
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -214,8 +214,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00017
-    instance: ngsi-ld-city-device-nb001-p00017
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00017
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -227,8 +227,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00018
-    instance: ngsi-ld-city-device-nb001-p00018
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00018
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -240,8 +240,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00019
-    instance: ngsi-ld-city-device-nb001-p00019
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00019
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -253,8 +253,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00020
-    instance: ngsi-ld-city-device-nb001-p00020
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00020
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -266,8 +266,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00021
-    instance: ngsi-ld-city-device-nb001-p00021
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00021
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -279,8 +279,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00022
-    instance: ngsi-ld-city-device-nb001-p00022
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00022
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -292,8 +292,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00023
-    instance: ngsi-ld-city-device-nb001-p00023
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00023
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -305,8 +305,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00024
-    instance: ngsi-ld-city-device-nb001-p00024
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00024
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -318,8 +318,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00025
-    instance: ngsi-ld-city-device-nb001-p00025
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00025
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -331,8 +331,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00026
-    instance: ngsi-ld-city-device-nb001-p00026
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00026
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -344,8 +344,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00027
-    instance: ngsi-ld-city-device-nb001-p00027
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00027
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -357,8 +357,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00028
-    instance: ngsi-ld-city-device-nb001-p00028
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00028
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -370,8 +370,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00029
-    instance: ngsi-ld-city-device-nb001-p00029
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00029
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -383,8 +383,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00030
-    instance: ngsi-ld-city-device-nb001-p00030
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00030
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -396,8 +396,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00031
-    instance: ngsi-ld-city-device-nb001-p00031
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00031
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -409,8 +409,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00032
-    instance: ngsi-ld-city-device-nb001-p00032
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00032
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -422,8 +422,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00033
-    instance: ngsi-ld-city-device-nb001-p00033
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00033
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -435,8 +435,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00034
-    instance: ngsi-ld-city-device-nb001-p00034
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00034
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -448,8 +448,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00035
-    instance: ngsi-ld-city-device-nb001-p00035
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00035
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -461,8 +461,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00036
-    instance: ngsi-ld-city-device-nb001-p00036
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00036
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -474,8 +474,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00037
-    instance: ngsi-ld-city-device-nb001-p00037
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00037
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -487,8 +487,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00038
-    instance: ngsi-ld-city-device-nb001-p00038
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00038
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -500,8 +500,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00039
-    instance: ngsi-ld-city-device-nb001-p00039
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00039
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -513,8 +513,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00030
-    instance: ngsi-ld-city-device-nb001-p00030
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00030
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -526,8 +526,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00041
-    instance: ngsi-ld-city-device-nb001-p00041
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00041
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -539,8 +539,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00042
-    instance: ngsi-ld-city-device-nb001-p00042
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00042
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -552,8 +552,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00043
-    instance: ngsi-ld-city-device-nb001-p00043
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00043
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -565,8 +565,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00044
-    instance: ngsi-ld-city-device-nb001-p00044
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00044
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -578,8 +578,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00045
-    instance: ngsi-ld-city-device-nb001-p00045
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00045
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -591,8 +591,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00046
-    instance: ngsi-ld-city-device-nb001-p00046
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00046
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -604,8 +604,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00047
-    instance: ngsi-ld-city-device-nb001-p00047
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00047
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -617,8 +617,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00048
-    instance: ngsi-ld-city-device-nb001-p00048
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00048
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -630,8 +630,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00049
-    instance: ngsi-ld-city-device-nb001-p00049
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00049
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -643,8 +643,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00050
-    instance: ngsi-ld-city-device-nb001-p00050
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00050
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -656,8 +656,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00051
-    instance: ngsi-ld-city-device-nb001-p00051
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00051
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -669,8 +669,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00052
-    instance: ngsi-ld-city-device-nb001-p00052
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00052
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -682,8 +682,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00053
-    instance: ngsi-ld-city-device-nb001-p00053
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00053
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -695,8 +695,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00054
-    instance: ngsi-ld-city-device-nb001-p00054
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00054
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -708,8 +708,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00055
-    instance: ngsi-ld-city-device-nb001-p00055
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00055
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -721,8 +721,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00056
-    instance: ngsi-ld-city-device-nb001-p00056
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00056
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -734,8 +734,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00057
-    instance: ngsi-ld-city-device-nb001-p00057
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00057
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -747,8 +747,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00058
-    instance: ngsi-ld-city-device-nb001-p00058
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00058
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -760,8 +760,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00059
-    instance: ngsi-ld-city-device-nb001-p00059
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00059
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -773,8 +773,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00060
-    instance: ngsi-ld-city-device-nb001-p00060
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00060
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -786,8 +786,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00061
-    instance: ngsi-ld-city-device-nb001-p00061
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00061
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -799,8 +799,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00062
-    instance: ngsi-ld-city-device-nb001-p00062
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00062
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -812,8 +812,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00063
-    instance: ngsi-ld-city-device-nb001-p00063
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00063
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -825,8 +825,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00064
-    instance: ngsi-ld-city-device-nb001-p00064
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00064
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -838,8 +838,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00065
-    instance: ngsi-ld-city-device-nb001-p00065
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00065
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -851,8 +851,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00066
-    instance: ngsi-ld-city-device-nb001-p00066
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00066
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -864,8 +864,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00067
-    instance: ngsi-ld-city-device-nb001-p00067
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00067
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -877,8 +877,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00068
-    instance: ngsi-ld-city-device-nb001-p00068
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00068
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -890,8 +890,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00069
-    instance: ngsi-ld-city-device-nb001-p00069
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00069
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -903,8 +903,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00070
-    instance: ngsi-ld-city-device-nb001-p00070
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00070
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -916,8 +916,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00071
-    instance: ngsi-ld-city-device-nb001-p00071
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00071
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -929,8 +929,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00072
-    instance: ngsi-ld-city-device-nb001-p00072
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00072
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -942,8 +942,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00073
-    instance: ngsi-ld-city-device-nb001-p00073
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00073
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -955,8 +955,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00074
-    instance: ngsi-ld-city-device-nb001-p00074
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00074
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -968,8 +968,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00075
-    instance: ngsi-ld-city-device-nb001-p00075
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00075
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -981,8 +981,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00076
-    instance: ngsi-ld-city-device-nb001-p00076
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00076
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -994,8 +994,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00077
-    instance: ngsi-ld-city-device-nb001-p00077
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00077
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1007,8 +1007,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00078
-    instance: ngsi-ld-city-device-nb001-p00078
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00078
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1020,8 +1020,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00079
-    instance: ngsi-ld-city-device-nb001-p00079
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00079
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1033,8 +1033,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00080
-    instance: ngsi-ld-city-device-nb001-p00080
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00080
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1046,8 +1046,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00081
-    instance: ngsi-ld-city-device-nb001-p00081
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00081
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1059,8 +1059,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00082
-    instance: ngsi-ld-city-device-nb001-p00082
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00082
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1072,8 +1072,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00083
-    instance: ngsi-ld-city-device-nb001-p00083
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00083
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1085,8 +1085,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00084
-    instance: ngsi-ld-city-device-nb001-p00084
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00084
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1098,8 +1098,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00085
-    instance: ngsi-ld-city-device-nb001-p00085
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00085
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1111,8 +1111,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00086
-    instance: ngsi-ld-city-device-nb001-p00086
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00086
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1124,8 +1124,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00087
-    instance: ngsi-ld-city-device-nb001-p00087
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00087
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1137,8 +1137,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00088
-    instance: ngsi-ld-city-device-nb001-p00088
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00088
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1150,8 +1150,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00089
-    instance: ngsi-ld-city-device-nb001-p00089
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00089
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1163,8 +1163,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00090
-    instance: ngsi-ld-city-device-nb001-p00090
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00090
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1176,8 +1176,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00091
-    instance: ngsi-ld-city-device-nb001-p00091
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00091
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1189,8 +1189,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00092
-    instance: ngsi-ld-city-device-nb001-p00092
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00092
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1202,8 +1202,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00093
-    instance: ngsi-ld-city-device-nb001-p00093
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00093
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1215,8 +1215,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00094
-    instance: ngsi-ld-city-device-nb001-p00094
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00094
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1228,8 +1228,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00095
-    instance: ngsi-ld-city-device-nb001-p00095
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00095
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1241,8 +1241,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00096
-    instance: ngsi-ld-city-device-nb001-p00096
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00096
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1254,8 +1254,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00097
-    instance: ngsi-ld-city-device-nb001-p00097
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00097
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1267,8 +1267,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00098
-    instance: ngsi-ld-city-device-nb001-p00098
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00098
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1280,8 +1280,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00099
-    instance: ngsi-ld-city-device-nb001-p00099
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00099
     interface: ngsi-ld-city-device
 status: {}
 ---
@@ -1293,8 +1293,8 @@ metadata:
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
-  - name: refDevice-nb001-p00100
-    instance: ngsi-ld-city-device-nb001-p00100
+  - name: refDevice
+    instance: ngsi-ld-city-device-wo-nb001-p00100
     interface: ngsi-ld-city-device
 status: {}
 ---
