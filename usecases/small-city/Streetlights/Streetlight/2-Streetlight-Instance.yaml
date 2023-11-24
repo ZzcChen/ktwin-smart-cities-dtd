@@ -1,0 +1,219 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00001
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00001
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00001
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00001
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00001
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00002
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00002
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00002
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00002
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00002
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00003
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00003
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00003
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00003
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00003
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00004
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00004
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00004
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00004
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00004
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00005
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00005
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00005
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00005
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00005
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00006
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00006
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00006
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00006
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00006
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00007
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00007
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00007
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00007
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00007
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00008
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00008
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00008
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00008
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00008
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00009
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00009
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00009
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice-nb001-sl00009
+    instance: ngsi-ld-city-device
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00009
+    interface: ngsi-ld-city-streetlightgroup
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-streetlight-nb001-sl00010
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-streetlight
+  twinInstanceRelationships:
+  - name: refStreetlightModel
+    instance: ngsi-ld-city-streetlightmodel-nb001-sl00010
+    interface: ngsi-ld-city-streetlightmodel
+  - name: refStreetlightControlCabinet
+    instance: ngsi-ld-city-streetlightcontrolcabinet-nb001-sl00010
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+  - name: refDevice
+    instance: ngsi-ld-city-device-nb001-sl00010
+    interface: ngsi-ld-city-device
+  - name: refStreetlightGroup
+    instance: ngsi-ld-city-streetlightgroup-nb001-sl00010
+    interface: ngsi-ld-city-streetlightgroup
+status: {}

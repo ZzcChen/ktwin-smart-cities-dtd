@@ -1,0 +1,174 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-trafficflowobserved
+  namespace: ktwin
+spec:
+  comment: Adapted from https://github.com/smart-data-models/dataModel.Transportation
+  description: An observation of traffic flow conditions at a certain place and time.
+  displayName: TrafficFlowObserved
+  extendsInterface: ngsi-ld-city-ngsildbasemodel
+  id: ngsi-ld-city-trafficflowobserved
+  properties:
+  - description: The geographic area where a service or offered item is provided
+    name: areaServed
+    schema:
+      primitiveType: string
+    writable: true
+  - description: Average gap distance between consecutive vehicles.
+    name: averageGapDistance
+    schema:
+      primitiveType: double
+    writable: true
+  - description: Average headway time. Headway time is the time ellapsed between two
+      consecutive vehicles.
+    name: averageHeadwayTime
+    schema:
+      primitiveType: double
+    writable: true
+  - description: Average length of the vehicles transiting during the observation
+      period.
+    name: averageVehicleLength
+    schema:
+      primitiveType: double
+    writable: true
+  - description: ' Average speed of the vehicles transiting during the observation
+      period.'
+    name: averageVehicleSpeed
+    schema:
+      primitiveType: double
+    writable: true
+  - description: Flags whether there was a traffic congestion during the observation
+      period in the referred lane.
+    name: congested
+    schema:
+      primitiveType: boolean
+    writable: true
+  - description: Observation period start date and time.
+    name: dateObservedFrom
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - description: Observation period end date and time.
+    name: dateObservedTo
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - description: Total number of vehicles detected during this observation period
+    name: intensity
+    schema:
+      primitiveType: integer
+    writable: true
+  - description: Usual direction of travel in the lane referred by this observation.
+      This attribute is useful when the observation is not referencing any road segment,
+      allowing to know the direction of travel of the traffic flow observed.
+    name: laneDirection
+    schema:
+      enumType:
+        enumValues:
+        - enumValue: forward
+          name: forward
+        - enumValue: backward
+          name: backward
+        valueSchema: string
+  - description: Fraction of the observation time where a vehicle has been occupying
+      the observed lane
+    name: occupancy
+    schema:
+      primitiveType: double
+    writable: true
+  - description: Flags whether traffic in the lane was reversed during the observation
+      period.
+    name: reversedLane
+    schema:
+      primitiveType: boolean
+    writable: true
+  - description: It allows to specify a sub type of vehicleType, eg if the vehicleType
+      is set to Lorry the vehicleSubType may be OGV1 or OGV2 to convey more information
+      about the exact type of vehicle.
+    name: vehicleSubType
+    schema:
+      primitiveType: string
+    writable: true
+  - description: Type of vehicle from the point of view of its structural characteristics.
+    name: vehicleType
+    schema:
+      enumType:
+        enumValues:
+        - enumValue: argriculturalVehicle
+          name: argriculturalVehicle
+        - enumValue: bicycle
+          name: bicycle
+        - enumValue: bus
+          name: bus
+        - enumValue: minibus
+          name: minibus
+        - enumValue: car
+          name: car
+        - enumValue: caravan
+          name: caravan
+        - enumValue: tram
+          name: tram
+        - enumValue: tanker
+          name: tanker
+        - enumValue: carWithCaravan
+          name: carWithCaravan
+        - enumValue: carWithTrailer
+          name: carWithTrailer
+        - enumValue: lorry
+          name: lorry
+        - enumValue: moped
+          name: moped
+        - enumValue: motorcycle
+          name: motorcycle
+        - enumValue: motorcycleWithSidecar
+          name: motorcycleWithSidecar
+        - enumValue: motorscooter
+          name: motorscooter
+        - enumValue: trailer
+          name: trailer
+        - enumValue: van
+          name: van
+        - enumValue: constructionOrMaintenanceVehicle
+          name: constructionOrMaintenanceVehicle
+        - enumValue: trolley
+          name: trolley
+        - enumValue: binTrolley
+          name: binTrolley
+        - enumValue: sweepingMachine
+          name: sweepingMachine
+        - enumValue: cleaningTolley
+          name: cleaningTrolley
+        valueSchema: string
+  relationships:
+  - description: Lane identifier. Lane identification is done using the conventions
+      defined by RoadSegment entity which are based on [OpenStreetMap](http://wiki.openstreetmap.org/wiki/Forward_%26_backward,_left_%26_right).
+    name: laneId
+    interface: ngsi-ld-city-roadsegment
+  - description: Concerned road segment on which the observation has been made. Reference
+      to an entity of type RoadSegment
+    name: refRoadSegment
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+#   name: ngsi-ld-city-trafficflowobserved-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-trafficflowobserved
+#   template:
+#     metadata:
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-trafficflowobserved-001
+#         resources: {}
+#   twinInstanceRelationships:
+#   - name: laneId-001
+#     interface: ngsi-ld-city-roadsegment-001
+#   - name: refRoadSegment-001
+#     interface: ngsi-ld-city-roadsegment-001
+# status: {}

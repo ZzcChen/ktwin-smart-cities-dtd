@@ -1,0 +1,435 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-offstreetparking
+  namespace: ktwin
+spec:
+  displayName: OffStreetParking
+  extendsInterface: ngsi-ld-city-ngsildbasemodel
+  id: ngsi-ld-city-offstreetparking
+  commands:
+  - name: updatevehiclecount
+    comment: Command used to increment or decrement the number of available vehicles in the parking
+    request:
+      name: updateVehicleCountRequest
+      schema:
+        complexType:
+          type: object
+          fields:
+          - name: vehicleEntranceCount
+            schema:
+              primitiveType: integer
+          - name: vehicleExitCount
+            schema:
+              primitiveType: integer
+  properties:
+  - name: accessModified
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: aggregateRating
+    schema:
+      primitiveType: double
+    writable: true
+  - name: highestFloor
+    schema:
+      primitiveType: integer
+    writable: true
+  - name: images
+    schema:
+      primitiveType: string
+    writable: true
+  - name: lowestFloor
+    schema:
+      primitiveType: integer
+    writable: true
+  - name: openingHours
+    schema:
+      primitiveType: string
+    writable: true
+  - name: priceCurrency
+    schema:
+      primitiveType: string
+    writable: true
+  - name: priceRatePerMinute
+    schema:
+      primitiveType: double
+    writable: true
+  - name: provider
+    schema:
+      primitiveType: string
+    writable: true
+  - name: facilities
+    schema:
+      enumType:
+        enumValues:
+        - displayName: BikeParking
+          enumValue: bikeParking
+          name: bikeParking
+        - displayName: CashMachine
+          enumValue: cashMachine
+          name: cashMachine
+        - displayName: CopyMachineOrService
+          enumValue: copyMachineOrService
+          name: copyMachineOrService
+        - displayName: Defibrillator
+          enumValue: defibrillator
+          name: defibrillator
+        - displayName: DumpingStation
+          enumValue: dumpingStation
+          name: dumpingStation
+        - displayName: ElectricChargingStation
+          enumValue: electricChargingStation
+          name: electricChargingStation
+        - displayName: Elevator
+          enumValue: elevator
+          name: elevator
+        - displayName: FaxMachineOrService
+          enumValue: faxMachineOrService
+          name: faxMachineOrService
+        - displayName: FireHose
+          enumValue: fireHose
+          name: fireHose
+        - displayName: FireExtinguisher
+          enumValue: fireExtinguisher
+          name: fireExtinguisher
+        - displayName: FireHydrant
+          enumValue: fireHydrant
+          name: fireHydrant
+        - displayName: FirstAidEquipment
+          enumValue: firstAidEquipment
+          name: firstAidEquipment
+        - displayName: FreshWater
+          enumValue: freshWater
+          name: freshWater
+        - displayName: IceFreeScaffold
+          enumValue: iceFreeScaffold
+          name: iceFreeScaffold
+        - displayName: InformationPoint
+          enumValue: informationPoint
+          name: informationPoint
+        - displayName: InternetWireless
+          enumValue: internetWireless
+          name: internetWireless
+        - displayName: LuggageLocker
+          enumValue: luggageLocker
+          name: luggageLocker
+        - displayName: PayDesk
+          enumValue: payDesk
+          name: payDesk
+        - displayName: PaymentMachine
+          enumValue: paymentMachine
+          name: paymentMachine
+        - displayName: Playground
+          enumValue: playground
+          name: playground
+        - displayName: PublicPhone
+          enumValue: publicPhone
+          name: publicPhone
+        - displayName: RefuseBin
+          enumValue: refuseBin
+          name: refuseBin
+        - displayName: SafeDeposit
+          enumValue: safeDeposit
+          name: safeDeposit
+        - displayName: Shower
+          enumValue: shower
+          name: shower
+        - displayName: Toilet
+          enumValue: toilet
+          name: toilet
+        - displayName: TollTerminal
+          enumValue: tollTerminal
+          name: tollTerminal
+        - displayName: VendingMachine
+          enumValue: vendingMachine
+          name: vendingMachine
+        - displayName: WasteDisposal
+          enumValue: wasteDisposal
+          name: wasteDisposal
+        valueSchema: string
+    writable: true
+  - name: layout
+    schema:
+      enumType:
+        enumValues:
+        - displayName: AutomatedParkingGarage
+          enumValue: automatedParkingGarage
+          name: automatedParkingGarage
+        - displayName: Carports
+          enumValue: carports
+          name: carports
+        - displayName: Covered
+          enumValue: covered
+          name: covered
+        - displayName: Field
+          enumValue: field
+          name: field
+        - displayName: GarageBoxes
+          enumValue: garageBoxes
+          name: garageBoxes
+        - displayName: MultiLevel
+          enumValue: multiLevel
+          name: multiLevel
+        - displayName: MultiStorey
+          enumValue: multiStorey
+          name: multiStorey
+        - displayName: Nested
+          enumValue: nested
+          name: nested
+        - displayName: OpenSpace
+          enumValue: openSpace
+          name: openSpace
+        - displayName: Rooftop
+          enumValue: rooftop
+          name: rooftop
+        - displayName: Sheds
+          enumValue: sheds
+          name: sheds
+        - displayName: SingleLevel
+          enumValue: singleLevel
+          name: singleLevel
+        - displayName: Surface
+          enumValue: surface
+          name: surface
+        - displayName: Other
+          enumValue: other
+          name: other
+        valueSchema: string
+    writable: true
+  - name: usageScenario
+    schema:
+      enumType:
+        enumValues:
+        - displayName: AutomaticParkingGuidance
+          enumValue: automaticParkingGuidance
+          name: automaticParkingGuidance
+        - displayName: CarSharing
+          enumValue: carSharing
+          name: carSharing
+        - displayName: DropOffWithValet
+          enumValue: dropOffWithValet
+          name: dropOffWithValet
+        - displayName: DropOffMechanical
+          enumValue: dropOffMechanical
+          name: dropOffMechanical
+        - displayName: DropOff
+          enumValue: dropOff
+          name: dropOff
+        - displayName: EventParking
+          enumValue: eventParking
+          name: eventParking
+        - displayName: KissAndRide
+          enumValue: kissAndRide
+          name: kissAndRide
+        - displayName: LiftShare
+          enumValue: liftShare
+          name: liftShare
+        - displayName: LoadingBay
+          enumValue: loadingBay
+          name: loadingBay
+        - displayName: OvernightParking
+          enumValue: overnightParking
+          name: overnightParking
+        - displayName: ParkAndCycle
+          enumValue: parkAndCycle
+          name: parkAndCycle
+        - displayName: ParkAndRide
+          enumValue: parkAndRide
+          name: parkAndRide
+        - displayName: ParkAndWalk
+          enumValue: parkAndWalk
+          name: parkAndWalk
+        - displayName: RestArea
+          enumValue: restArea
+          name: restArea
+        - displayName: ServiceArea
+          enumValue: serviceArea
+          name: serviceArea
+        - displayName: StaffGuidesToSpace
+          enumValue: staffGuidesToSpace
+          name: staffGuidesToSpace
+        - displayName: TruckParking
+          enumValue: truckParking
+          name: truckParking
+        - displayName: VehicleLift
+          enumValue: vehicleLift
+          name: vehicleLift
+        - displayName: Other
+          enumValue: other
+          name: other
+        valueSchema: string
+    writable: true
+  - name: security
+    schema:
+      enumType:
+        enumValues:
+        - displayName: AreaSeparatedFromSurroundings
+          enumValue: areaSeparatedFromSurroundings
+          name: areaSeparatedFromSurroundings
+        - displayName: Cctv
+          enumValue: cctv
+          name: cctv
+        - displayName: Dog
+          enumValue: dog
+          name: dog
+        - displayName: ExternalSecurity
+          enumValue: externalSecurity
+          name: externalSecurity
+        - displayName: Fences
+          enumValue: fences
+          name: fences
+        - displayName: FloodLight
+          enumValue: floodLight
+          name: floodLight
+        - displayName: Guard24hours
+          enumValue: guard24hours
+          name: guard24hours
+        - displayName: Lighting
+          enumValue: lighting
+          name: lighting
+        - displayName: Patrolled
+          enumValue: patrolled
+          name: patrolled
+        - displayName: SecurityStaff
+          enumValue: securityStaff
+          name: securityStaff
+        valueSchema: string
+    writable: true
+  - name: specialLocation
+    schema:
+      enumType:
+        enumValues:
+        - displayName: AirportTerminal
+          enumValue: airportTerminal
+          name: airportTerminal
+        - displayName: CableCarStation
+          enumValue: cableCarStation
+          name: cableCarStation
+        - displayName: Campground
+          enumValue: campground
+          name: campground
+        - displayName: Cinema
+          enumValue: cinema
+          name: cinema
+        - displayName: CoachStation
+          enumValue: coachStation
+          name: coachStation
+        - displayName: ConventionCentre
+          enumValue: conventionCentre
+          name: conventionCentre
+        - displayName: ExhibitionCentre
+          enumValue: exhibitionCentre
+          name: exhibitionCentre
+        - displayName: FerryTerminal
+          enumValue: ferryTerminal
+          name: ferryTerminal
+        - displayName: Hotel
+          enumValue: hotel
+          name: hotel
+        - displayName: Market
+          enumValue: market
+          name: market
+        - displayName: PublicTransportStation
+          enumValue: publicTransportStation
+          name: publicTransportStation
+        - displayName: ReligiousCentre
+          enumValue: religiousCentre
+          name: religiousCentre
+        - displayName: ShoppingCentre
+          enumValue: shoppingCentre
+          name: shoppingCentre
+        - displayName: Skilift
+          enumValue: skilift
+          name: skilift
+        - displayName: SpecificFacility
+          enumValue: specificFacility
+          name: specificFacility
+        - displayName: ThemePark
+          enumValue: themePark
+          name: themePark
+        - displayName: TrainStation
+          enumValue: trainStation
+          name: trainStation
+        - displayName: VehicleOnRailTerminal
+          enumValue: vehicleOnRailTerminal
+          name: vehicleOnRailTerminal
+        - displayName: Other
+          enumValue: other
+          name: other
+        valueSchema: string
+    writable: true
+  - name: category
+    schema:
+      primitiveType: string
+    writable: true
+  - name: extCategory
+    schema:
+      primitiveType: string
+    writable: true
+  - name: firstAvailableFloor
+    schema:
+      primitiveType: integer
+  - name: measuresPeriod
+    schema:
+      primitiveType: double
+  - name: measuresPeriodUnit
+    schema:
+      primitiveType: string
+  - name: occupancy
+    schema:
+      primitiveType: double
+  - name: occupancyModified
+    schema:
+      primitiveType: double
+  - name: occupiedSpotNumber
+    schema:
+      primitiveType: integer
+  - name: status
+    schema:
+      enumType:
+        enumValues:
+        - displayName: Full
+          enumValue: full
+          name: full
+        - displayName: AlmostFull
+          enumValue: almostFull
+          name: almostFull
+        - displayName: FullAtEntrance
+          enumValue: fullAtEntrance
+          name: fullAtEntrance
+        - displayName: SpacesAvailable
+          enumValue: spacesAvailable
+          name: spacesAvailable
+        - displayName: Open
+          enumValue: open
+          name: open
+        - displayName: OpeningTimesInForce
+          enumValue: openingTimesInForce
+          name: openingTimesInForce
+        - displayName: Closed
+          enumValue: closed
+          name: closed
+        - displayName: ClosedAbnormal
+          enumValue: closedAbnormal
+          name: closedAbnormal
+        valueSchema: string
+  relationships:
+  - name: refParkingGroup
+    interface: ngsi-ld-city-parkinggroup
+  - name: refParkingSpot
+    interface: ngsi-ld-city-parkingspot
+  service:
+    autoScaling:
+      maxScale: 20
+      target: 5
+      targetUtilizationPercentage: 65
+      parallelism: 100
+      metric: "concurrency"
+    template:
+      spec:
+        containers:
+        - image: ghcr.io/open-digital-twin/ktwin-parking-service:0.1
+          imagePullPolicy: IfNotPresent
+          name: city-pole
+          resources: {}

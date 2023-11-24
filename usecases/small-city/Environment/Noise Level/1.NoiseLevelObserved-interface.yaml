@@ -1,0 +1,43 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-noiselevelobserved
+  namespace: ktwin
+spec:
+  description: The Noise level observed at a certain spot
+  displayName: NoiseLevelObserved
+  extendsInterface: ngsi-ld-city-environmentbasemodel
+  id: ngsi-ld-city-noiselevelobserved
+  properties:
+  - name: dateObservedFrom
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: dateObservedTo
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: sonometerClass
+    schema:
+      primitiveType: integer
+    writable: true
+  - name: LASSoundPressure
+    schema:
+      primitiveType: double
+  - name: LAeqSoundPressure
+    schema:
+      primitiveType: double
+  - name: LAeq_dSoundPressure
+    schema:
+      primitiveType: double
+  - name: LAmaxSoundPressure
+    schema:
+      primitiveType: double
+  relationships:
+  - maxMultiplicity: 1
+    name: refDevice
+    interface: ngsi-ld-city-device
+  - maxMultiplicity: 1
+    name: refWeatherObserverd
+    interface: ngsi-ld-city-weatherobserved
+status: {}
