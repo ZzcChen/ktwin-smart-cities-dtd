@@ -9,9 +9,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0001
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0001
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -25,9 +22,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0002
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0002
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -41,9 +35,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0003
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0003
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -57,9 +48,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0004
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0004
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -73,9 +61,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0005
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0005
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -89,9 +74,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0006
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0006
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -105,9 +87,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0007
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0007
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -121,9 +100,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0008
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0008
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -137,9 +113,6 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0009
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0009
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -153,8 +126,5 @@ spec:
   - name: refParkingGroup
     instance: ngsi-ld-city-parkinggroup-nb001-onp0010
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot
-    instance: ngsi-ld-city-parkingspot-nb001-onp0010
-    interface: ngsi-ld-city-parkingspot
 status: {}
 ---
