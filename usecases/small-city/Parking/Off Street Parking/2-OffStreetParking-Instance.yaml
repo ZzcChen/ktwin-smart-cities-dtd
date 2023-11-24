@@ -9,9 +9,6 @@ spec:
   - name: refParkingGroup-nb001-ofp0001
     instance: ngsi-ld-city-parkinggroup-nb001-ofp0001
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot-nb001-ofp0001
-    instance: ngsi-ld-city-parkingspot-nb001-ofp0001
-    interface: ngsi-ld-city-parkingspot
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
@@ -24,9 +21,6 @@ spec:
   - name: refParkingGroup-nb001-ofp0002
     instance: ngsi-ld-city-parkinggroup-nb001-ofp0002
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot-nb001-ofp0002
-    instance: ngsi-ld-city-parkingspot-nb001-ofp0002
-    interface: ngsi-ld-city-parkingspot
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
@@ -39,9 +33,6 @@ spec:
   - name: refParkingGroup-nb001-ofp0003
     instance: ngsi-ld-city-parkinggroup-nb001-ofp0003
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot-nb001-ofp0003
-    instance: ngsi-ld-city-parkingspot-nb001-ofp0003
-    interface: ngsi-ld-city-parkingspot
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
@@ -54,9 +45,6 @@ spec:
   - name: refParkingGroup-nb001-ofp0004
     instance: ngsi-ld-city-parkinggroup-nb001-ofp0004
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot-nb001-ofp0004
-    instance: ngsi-ld-city-parkingspot-nb001-ofp0004
-    interface: ngsi-ld-city-parkingspot
 ---
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
@@ -69,6 +57,3 @@ spec:
   - name: refParkingGroup-nb001-ofp0005
     instance: ngsi-ld-city-parkinggroup-nb001-ofp0005
     interface: ngsi-ld-city-parkinggroup
-  - name: refParkingSpot-nb001-ofp0005
-    instance: ngsi-ld-city-parkingspot-nb001-ofp0005
-    interface: ngsi-ld-city-parkingspot
