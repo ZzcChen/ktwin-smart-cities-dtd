@@ -7,7 +7,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00001
+    instance: ngsi-ld-city-device-aqo-nb001-p00001
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00001
@@ -26,7 +26,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00002
+    instance: ngsi-ld-city-device-aqo-nb001-p00002
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00002
@@ -45,7 +45,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00003
+    instance: ngsi-ld-city-device-aqo-nb001-p00003
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00003
@@ -64,7 +64,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00004
+    instance: ngsi-ld-city-device-aqo-nb001-p00004
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00004
@@ -83,7 +83,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00005
+    instance: ngsi-ld-city-device-aqo-nb001-p00005
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00005
@@ -102,7 +102,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00006
+    instance: ngsi-ld-city-device-aqo-nb001-p00006
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00006
@@ -121,7 +121,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00007
+    instance: ngsi-ld-city-device-aqo-nb001-p00007
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00007
@@ -140,7 +140,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00008
+    instance: ngsi-ld-city-device-aqo-nb001-p00008
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00008
@@ -159,7 +159,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00009
+    instance: ngsi-ld-city-device-aqo-nb001-p00009
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00009
@@ -178,7 +178,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00010
+    instance: ngsi-ld-city-device-aqo-nb001-p00010
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00010
@@ -197,7 +197,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00011
+    instance: ngsi-ld-city-device-aqo-nb001-p00011
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00011
@@ -216,7 +216,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00012
+    instance: ngsi-ld-city-device-aqo-nb001-p00012
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00012
@@ -235,7 +235,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00013
+    instance: ngsi-ld-city-device-aqo-nb001-p00013
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00013
@@ -254,7 +254,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00014
+    instance: ngsi-ld-city-device-aqo-nb001-p00014
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00014
@@ -273,7 +273,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00015
+    instance: ngsi-ld-city-device-aqo-nb001-p00015
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00015
@@ -292,7 +292,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00016
+    instance: ngsi-ld-city-device-aqo-nb001-p00016
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00016
@@ -311,7 +311,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00017
+    instance: ngsi-ld-city-device-aqo-nb001-p00017
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00017
@@ -330,7 +330,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00018
+    instance: ngsi-ld-city-device-aqo-nb001-p00018
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00018
@@ -349,7 +349,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00019
+    instance: ngsi-ld-city-device-aqo-nb001-p00019
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00019
@@ -368,7 +368,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00020
+    instance: ngsi-ld-city-device-aqo-nb001-p00020
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00020
@@ -387,7 +387,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00021
+    instance: ngsi-ld-city-device-aqo-nb001-p00021
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00021
@@ -406,7 +406,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00022
+    instance: ngsi-ld-city-device-aqo-nb001-p00022
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00022
@@ -425,7 +425,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00023
+    instance: ngsi-ld-city-device-aqo-nb001-p00023
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00023
@@ -444,7 +444,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00024
+    instance: ngsi-ld-city-device-aqo-nb001-p00024
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00024
@@ -463,7 +463,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00025
+    instance: ngsi-ld-city-device-aqo-nb001-p00025
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00025
@@ -482,7 +482,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00026
+    instance: ngsi-ld-city-device-aqo-nb001-p00026
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00026
@@ -501,7 +501,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00027
+    instance: ngsi-ld-city-device-aqo-nb001-p00027
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00027
@@ -520,7 +520,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00028
+    instance: ngsi-ld-city-device-aqo-nb001-p00028
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00028
@@ -539,7 +539,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00029
+    instance: ngsi-ld-city-device-aqo-nb001-p00029
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00029
@@ -558,7 +558,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00030
+    instance: ngsi-ld-city-device-aqo-nb001-p00030
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00030
@@ -577,7 +577,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00031
+    instance: ngsi-ld-city-device-aqo-nb001-p00031
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00031
@@ -596,7 +596,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00032
+    instance: ngsi-ld-city-device-aqo-nb001-p00032
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00032
@@ -615,7 +615,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00033
+    instance: ngsi-ld-city-device-aqo-nb001-p00033
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00033
@@ -634,7 +634,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00034
+    instance: ngsi-ld-city-device-aqo-nb001-p00034
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00034
@@ -653,7 +653,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00035
+    instance: ngsi-ld-city-device-aqo-nb001-p00035
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00035
@@ -672,7 +672,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00036
+    instance: ngsi-ld-city-device-aqo-nb001-p00036
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00036
@@ -691,7 +691,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00037
+    instance: ngsi-ld-city-device-aqo-nb001-p00037
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00037
@@ -710,7 +710,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00038
+    instance: ngsi-ld-city-device-aqo-nb001-p00038
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00038
@@ -729,7 +729,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00039
+    instance: ngsi-ld-city-device-aqo-nb001-p00039
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00039
@@ -748,7 +748,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00040
+    instance: ngsi-ld-city-device-aqo-nb001-p00040
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00040
@@ -767,7 +767,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00041
+    instance: ngsi-ld-city-device-aqo-nb001-p00041
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00041
@@ -786,7 +786,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00042
+    instance: ngsi-ld-city-device-aqo-nb001-p00042
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00042
@@ -805,7 +805,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00043
+    instance: ngsi-ld-city-device-aqo-nb001-p00043
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00043
@@ -824,7 +824,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00044
+    instance: ngsi-ld-city-device-aqo-nb001-p00044
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00044
@@ -843,7 +843,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00045
+    instance: ngsi-ld-city-device-aqo-nb001-p00045
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00045
@@ -862,7 +862,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00046
+    instance: ngsi-ld-city-device-aqo-nb001-p00046
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00046
@@ -881,7 +881,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00047
+    instance: ngsi-ld-city-device-aqo-nb001-p00047
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00047
@@ -900,7 +900,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00048
+    instance: ngsi-ld-city-device-aqo-nb001-p00048
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00048
@@ -919,7 +919,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00049
+    instance: ngsi-ld-city-device-aqo-nb001-p00049
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00049
@@ -938,7 +938,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00050
+    instance: ngsi-ld-city-device-aqo-nb001-p00050
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00050
@@ -957,7 +957,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00051
+    instance: ngsi-ld-city-device-aqo-nb001-p00051
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00051
@@ -976,7 +976,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00052
+    instance: ngsi-ld-city-device-aqo-nb001-p00052
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00052
@@ -995,7 +995,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00053
+    instance: ngsi-ld-city-device-aqo-nb001-p00053
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00053
@@ -1014,7 +1014,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00054
+    instance: ngsi-ld-city-device-aqo-nb001-p00054
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00054
@@ -1033,7 +1033,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00055
+    instance: ngsi-ld-city-device-aqo-nb001-p00055
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00055
@@ -1052,7 +1052,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00056
+    instance: ngsi-ld-city-device-aqo-nb001-p00056
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00056
@@ -1071,7 +1071,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00057
+    instance: ngsi-ld-city-device-aqo-nb001-p00057
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00057
@@ -1090,7 +1090,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00058
+    instance: ngsi-ld-city-device-aqo-nb001-p00058
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00058
@@ -1109,7 +1109,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00059
+    instance: ngsi-ld-city-device-aqo-nb001-p00059
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00059
@@ -1128,7 +1128,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00060
+    instance: ngsi-ld-city-device-aqo-nb001-p00060
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00060
@@ -1147,7 +1147,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00061
+    instance: ngsi-ld-city-device-aqo-nb001-p00061
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00061
@@ -1166,7 +1166,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00062
+    instance: ngsi-ld-city-device-aqo-nb001-p00062
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00062
@@ -1185,7 +1185,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00063
+    instance: ngsi-ld-city-device-aqo-nb001-p00063
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00063
@@ -1204,7 +1204,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00064
+    instance: ngsi-ld-city-device-aqo-nb001-p00064
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00064
@@ -1223,7 +1223,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00065
+    instance: ngsi-ld-city-device-aqo-nb001-p00065
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00065
@@ -1242,7 +1242,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00066
+    instance: ngsi-ld-city-device-aqo-nb001-p00066
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00066
@@ -1261,7 +1261,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00067
+    instance: ngsi-ld-city-device-aqo-nb001-p00067
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00067
@@ -1280,7 +1280,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00068
+    instance: ngsi-ld-city-device-aqo-nb001-p00068
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00068
@@ -1299,7 +1299,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00069
+    instance: ngsi-ld-city-device-aqo-nb001-p00069
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00069
@@ -1318,7 +1318,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00070
+    instance: ngsi-ld-city-device-aqo-nb001-p00070
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00070
@@ -1337,7 +1337,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00071
+    instance: ngsi-ld-city-device-aqo-nb001-p00071
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00071
@@ -1356,7 +1356,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00072
+    instance: ngsi-ld-city-device-aqo-nb001-p00072
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00072
@@ -1375,7 +1375,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00073
+    instance: ngsi-ld-city-device-aqo-nb001-p00073
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00073
@@ -1394,7 +1394,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00074
+    instance: ngsi-ld-city-device-aqo-nb001-p00074
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00074
@@ -1413,7 +1413,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00075
+    instance: ngsi-ld-city-device-aqo-nb001-p00075
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00075
@@ -1432,7 +1432,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00076
+    instance: ngsi-ld-city-device-aqo-nb001-p00076
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00076
@@ -1451,7 +1451,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00077
+    instance: ngsi-ld-city-device-aqo-nb001-p00077
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00077
@@ -1470,7 +1470,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00078
+    instance: ngsi-ld-city-device-aqo-nb001-p00078
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00078
@@ -1489,7 +1489,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00079
+    instance: ngsi-ld-city-device-aqo-nb001-p00079
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00079
@@ -1508,7 +1508,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00080
+    instance: ngsi-ld-city-device-aqo-nb001-p00080
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00080
@@ -1527,7 +1527,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00081
+    instance: ngsi-ld-city-device-aqo-nb001-p00081
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00081
@@ -1546,7 +1546,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00082
+    instance: ngsi-ld-city-device-aqo-nb001-p00082
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00082
@@ -1565,7 +1565,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00083
+    instance: ngsi-ld-city-device-aqo-nb001-p00083
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00083
@@ -1584,7 +1584,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00084
+    instance: ngsi-ld-city-device-aqo-nb001-p00084
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00084
@@ -1603,7 +1603,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00085
+    instance: ngsi-ld-city-device-aqo-nb001-p00085
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00085
@@ -1622,7 +1622,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00086
+    instance: ngsi-ld-city-device-aqo-nb001-p00086
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00086
@@ -1641,7 +1641,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00087
+    instance: ngsi-ld-city-device-aqo-nb001-p00087
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00087
@@ -1660,7 +1660,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00088
+    instance: ngsi-ld-city-device-aqo-nb001-p00088
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00088
@@ -1679,7 +1679,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00089
+    instance: ngsi-ld-city-device-aqo-nb001-p00089
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00089
@@ -1698,7 +1698,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00090
+    instance: ngsi-ld-city-device-aqo-nb001-p00090
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00090
@@ -1717,7 +1717,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00091
+    instance: ngsi-ld-city-device-aqo-nb001-p00091
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00091
@@ -1736,7 +1736,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00092
+    instance: ngsi-ld-city-device-aqo-nb001-p00092
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00092
@@ -1755,7 +1755,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00093
+    instance: ngsi-ld-city-device-aqo-nb001-p00093
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00093
@@ -1774,7 +1774,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00094
+    instance: ngsi-ld-city-device-aqo-nb001-p00094
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00094
@@ -1793,7 +1793,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00095
+    instance: ngsi-ld-city-device-aqo-nb001-p00095
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00095
@@ -1812,7 +1812,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00096
+    instance: ngsi-ld-city-device-aqo-nb001-p00096
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00096
@@ -1831,7 +1831,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00097
+    instance: ngsi-ld-city-device-aqo-nb001-p00097
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00097
@@ -1850,7 +1850,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00098
+    instance: ngsi-ld-city-device-aqo-nb001-p00098
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00098
@@ -1869,7 +1869,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00099
+    instance: ngsi-ld-city-device-aqo-nb001-p00099
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00099
@@ -1888,7 +1888,7 @@ spec:
   interface: ngsi-ld-city-airqualityobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-nb001-p00100
+    instance: ngsi-ld-city-device-aqo-nb001-p00100
     interface: ngsi-ld-city-device
   - name: refWeatherObserved
     instance: ngsi-ld-city-weatherobserved-nb001-p00100
