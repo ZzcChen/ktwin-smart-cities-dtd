@@ -1,0 +1,129 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00001
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00001
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00002
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00002
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00003
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00003
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00004
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00004
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00005
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00005
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00006
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00006
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00007
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00007
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00008
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00008
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00009
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00009
+    interface: ngsi-ld-city-devicemodel
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-device-nb001-sl00010
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-device
+  twinInstanceRelationships:
+  - name: refDeviceModel
+    instance: ngsi-ld-city-devicemodel-nb001-sl00010
+    interface: ngsi-ld-city-devicemodel
+status: {}
