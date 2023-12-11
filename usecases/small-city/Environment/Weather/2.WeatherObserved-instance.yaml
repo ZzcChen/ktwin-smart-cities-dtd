@@ -508,13 +508,13 @@ status: {}
 apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
-  name: ngsi-ld-city-weatherobserved-nb001-p00030
+  name: ngsi-ld-city-weatherobserved-nb001-p00040
   namespace: ktwin
 spec:
   interface: ngsi-ld-city-weatherobserved
   twinInstanceRelationships:
   - name: refDevice
-    instance: ngsi-ld-city-device-wo-nb001-p00030
+    instance: ngsi-ld-city-device-wo-nb001-p00040
     interface: ngsi-ld-city-device
 status: {}
 ---
