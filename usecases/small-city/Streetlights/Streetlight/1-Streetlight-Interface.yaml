@@ -167,5 +167,11 @@ spec:
         - image: ghcr.io/open-digital-twin/ktwin-streetlight-service:0.1
           imagePullPolicy: IfNotPresent
           name: streetlight
-          resources: {}
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "128Mi"
+              cpu: "200m"
 status: {}

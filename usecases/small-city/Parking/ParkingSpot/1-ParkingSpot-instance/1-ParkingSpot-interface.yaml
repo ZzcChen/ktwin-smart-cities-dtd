@@ -87,5 +87,11 @@ spec:
         - image: ghcr.io/open-digital-twin/ktwin-parking-spot-service:0.1
           imagePullPolicy: IfNotPresent
           name: city-pole
-          resources: {}
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "128Mi"
+              cpu: "200m"
 status: {}
