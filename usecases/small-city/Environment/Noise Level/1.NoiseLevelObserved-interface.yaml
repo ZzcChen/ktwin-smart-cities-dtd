@@ -40,4 +40,6 @@ spec:
   - maxMultiplicity: 1
     name: refWeatherObserverd
     interface: ngsi-ld-city-weatherobserved
+  eventStore:
+    persistRealEvent: true
 status: {}
