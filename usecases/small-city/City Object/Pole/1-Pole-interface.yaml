@@ -18,7 +18,6 @@ spec:
     aggregateData: true
   - name: refNoiseLevel
     interface: ngsi-ld-city-noiselevelobserved
-    aggregateData: true
   - name: refWeather
     interface: ngsi-ld-city-weatherobserved
     aggregateData: true
