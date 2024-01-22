@@ -1,0 +1,90 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0001
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0002
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0003
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0004
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0005
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0006
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0007
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0008
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0009
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-evchargingstation-nb011-ev0010
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-evchargingstation
+status: {}
+---
