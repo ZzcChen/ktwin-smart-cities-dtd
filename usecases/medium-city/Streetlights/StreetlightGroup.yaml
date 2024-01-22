@@ -1,0 +1,110 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-streetlightgroup
+  namespace: ktwin
+spec:
+  displayName: StreetlightGroup
+  extendsInterface: ngsi-ld-city-ngsildbasemodel
+  id: ngsi-ld-city-streetlightgroup
+  properties:
+  - description: Streetlight group's power state. Enum:'on, off, low, bootingUp'.
+    name: powerState
+    schema:
+      enumType:
+        enumValues:
+        - displayName: "ON"
+          enumValue: "on"
+          name: "on"
+        - displayName: "OFF"
+          enumValue: "off"
+          name: "off"
+        - displayName: LOW
+          enumValue: low
+          name: low
+        - displayName: BootingUp
+          enumValue: bootingUp
+          name: bootingUp
+        valueSchema: string
+    writable: true
+  - name: dateLastSwitchingOn
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: dateLastSwitchingOff
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: switchingMode
+    schema:
+      enumType:
+        enumValues:
+        - displayName: night-ON
+          enumValue: nightON
+          name: nightON
+        - displayName: night-OFF
+          enumValue: nightOFF
+          name: nightOFF
+        - displayName: night-LOW
+          enumValue: nightLOW
+          name: nightLOW
+        - displayName: always-ON
+          enumValue: alwaysON
+          name: alwaysON
+        - displayName: day-ON
+          enumValue: dayON
+          name: dayON
+        - displayName: day-OFF
+          enumValue: dayOFF
+          name: dayOFF
+        - displayName: day-LOW
+          enumValue: dayLOW
+          name: dayLOW
+        valueSchema: string
+    writable: true
+  - description: 'Relative illuminance level setting for the group. Allowed values:
+      A number between 0 and 1.'
+    name: illuminanceLevel
+    schema:
+      primitiveType: double
+    writable: true
+  - description: Identifier of the active program for this streetlight group.
+    name: activeProgramId
+    schema:
+      primitiveType: string
+  - name: annotations
+    schema:
+      primitiveType: string
+  relationships:
+  - description: 'Relationship. List of streetlight entities belonging to this group.
+      List of references to entities for type Streetlight. Allowed values: There must
+      topographical integrity between the location of the group and of the individual
+      streetlights.'
+    name: refStreetLight
+    interface: ngsi-ld-city-streetlight
+  - description: Streetlight group's control cabinet
+    name: refStreetlightControlCabinet
+    interface: ngsi-ld-city-streetlightcontrolcabinet
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+#   name: ngsi-ld-city-streetlightgroup-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-streetlightgroup
+#   template:
+#     metadata:
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-streetlightgroup-001
+#         resources: {}
+#   twinInstanceRelationships:
+#   - name: refStreetLight-001
+#     interface: ngsi-ld-city-streetlight-001
+#   - name: refStreetlightControlCabinet-001
+#     interface: ngsi-ld-city-streetlightcontrolcabinet-001
+# status: {}
