@@ -24,6 +24,9 @@ spec:
   - name: refCrowdFlow
     interface: ngsi-ld-city-crowdflowobserved
     aggregateData: true
+  - name: refTrafficFlow
+    interface: ngsi-ld-city-trafficflowobserved
+    aggregateData: true
   - name: refEVChargingStation
     interface: ngsi-ld-city-evchargingstation
   service:
