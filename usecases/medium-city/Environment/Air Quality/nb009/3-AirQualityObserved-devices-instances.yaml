@@ -1,4 +1,4 @@
-1apiVersion: dtd.ktwin/v0
+apiVersion: dtd.ktwin/v0
 kind: TwinInstance
 metadata:
   name: ngsi-ld-city-device-aqo-nb009-p00001
