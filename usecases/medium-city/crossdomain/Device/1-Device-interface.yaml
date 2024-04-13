@@ -39,7 +39,7 @@ spec:
   service:
     autoScaling:
       maxScale: 18
-      minScale: 18
+      #minScale: 18
       target: 5
       targetUtilizationPercentage: 65
       parallelism: 100
