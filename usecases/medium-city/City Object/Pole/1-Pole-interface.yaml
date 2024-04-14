@@ -24,12 +24,15 @@ spec:
   - name: refCrowdFlow
     interface: ngsi-ld-city-crowdflowobserved
     aggregateData: true
+  - name: refTrafficFlow
+    interface: ngsi-ld-city-trafficflowobserved
+    aggregateData: true
   - name: refEVChargingStation
     interface: ngsi-ld-city-evchargingstation
   service:
     autoScaling:
       maxScale: 18
-      #minScale: 18
+      #minScale: 0
       target: 5
       targetUtilizationPercentage: 65
       parallelism: 100
