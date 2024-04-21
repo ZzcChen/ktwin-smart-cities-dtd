@@ -26,6 +26,18 @@ spec:
     aggregateData: true
   - name: refEVChargingStation
     interface: ngsi-ld-city-evchargingstation
+  commands:
+  - name: updateairqualityindex
+    comment: Command used update the air quality index in the city pole
+    request:
+      name: updateAirQualityIndexRequest
+      schema:
+        complexType:
+          type: object
+          fields:
+          - name: aqiLevel
+            schema:
+              primitiveType: string
   service:
     autoScaling:
       maxScale: 18
