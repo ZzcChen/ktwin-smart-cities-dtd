@@ -27,9 +27,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00001
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00001
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -61,9 +58,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00002
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00002
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -95,9 +89,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00003
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00003
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -129,9 +120,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00004
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00004
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -163,9 +151,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00005
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00005
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -197,9 +182,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00006
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00006
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -231,9 +213,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00007
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00007
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -265,9 +244,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00008
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00008
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -299,9 +275,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00009
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00009
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -333,9 +306,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00010
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00010
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -367,9 +337,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00011
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00011
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -401,9 +368,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00012
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00012
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -435,9 +399,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00013
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00013
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -469,9 +430,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00014
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00014
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -503,9 +461,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00015
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00015
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -537,9 +492,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00016
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00016
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -571,9 +523,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00017
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00017
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -605,9 +554,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00018
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00018
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -639,9 +585,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00019
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00019
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -673,9 +616,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00020
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00020
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -707,9 +647,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00021
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00021
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -741,9 +678,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00022
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00022
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -775,9 +709,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00023
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00023
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -809,9 +740,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00024
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00024
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -843,9 +771,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00025
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00025
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -877,9 +802,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00026
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00026
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -911,9 +833,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00027
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00027
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -945,9 +864,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00028
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00028
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -979,9 +895,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00029
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00029
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1013,9 +926,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00030
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00030
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1047,9 +957,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00031
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00031
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1081,9 +988,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00032
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00032
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1115,9 +1019,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00033
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00033
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1149,9 +1050,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00034
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00034
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1183,9 +1081,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00035
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00035
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1217,9 +1112,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00036
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00036
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1251,9 +1143,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00037
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00037
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1285,9 +1174,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00038
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00038
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1319,9 +1205,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00039
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00039
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1353,9 +1236,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00040
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00040
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1387,9 +1267,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00041
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00041
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1421,9 +1298,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00042
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00042
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1455,9 +1329,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00043
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00043
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1489,9 +1360,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00044
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00044
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1523,9 +1391,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00045
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00045
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1557,9 +1422,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00046
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00046
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1591,9 +1453,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00047
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00047
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1625,9 +1484,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00048
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00048
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1659,9 +1515,6 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00049
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00049
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
 ---
 apiVersion: dtd.ktwin/v0
@@ -1693,7 +1546,4 @@ spec:
   - instance: ngsi-ld-city-trafficflowobserved-nb001-p00050
     interface: ngsi-ld-city-trafficflowobserved
     name: refTrafficFlow
-  - instance: ngsi-ld-city-evchargingstation-nb001-p00050
-    interface: ngsi-ld-city-evchargingstation
-    name: refEVChargingStation
 status: {}
