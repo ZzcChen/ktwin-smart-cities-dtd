@@ -1,0 +1,63 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: city-pole
+  namespace: ktwin
+spec:
+  description: pole
+  displayName: Pole
+  extendsInterface: s4city-city-cityfurniture
+  id: city-pole
+  relationships:
+  - name: refNeighborhood
+    interface: s4city-city-neighborhood
+  - name: refStreetlight
+    interface: ngsi-ld-city-streetlight
+  - name: refAirQualityObserved
+    interface: ngsi-ld-city-airqualityobserved
+    aggregateData: true
+  - name: refNoiseLevel
+    interface: ngsi-ld-city-noiselevelobserved
+  - name: refWeather
+    interface: ngsi-ld-city-weatherobserved
+    aggregateData: true
+  - name: refCrowdFlow
+    interface: ngsi-ld-city-crowdflowobserved
+    aggregateData: true
+  - name: refTrafficFlow
+    interface: ngsi-ld-city-trafficflowobserved
+    aggregateData: true
+  commands:
+  - name: updateairqualityindex
+    comment: Command used update the air quality index in the city pole
+    request:
+      name: updateAirQualityIndexRequest
+      schema:
+        complexType:
+          type: object
+          fields:
+          - name: aqiLevel
+            schema:
+              primitiveType: string
+  service:
+    autoScaling:
+      maxScale: 18
+      #minScale: 0
+      target: 5
+      targetUtilizationPercentage: 65
+      parallelism: 100
+      metric: "concurrency"
+    template:
+      spec:
+        containers:
+        - image: ghcr.io/open-digital-twin/ktwin-pole-service:0.1
+          imagePullPolicy: IfNotPresent
+          name: city-pole
+          resources:
+            requests:
+              memory: "100Mi"
+              cpu: "100m"
+            limits:
+              memory: "100Mi"
+              cpu: "200m"
+status: {}
