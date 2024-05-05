@@ -1,0 +1,59 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-acceptedpaymentmethod
+  namespace: ktwin
+spec:
+  displayName: AcceptedPaymentMethod
+  id: ngsi-ld-city-acceptedpaymentmethod
+  properties:
+  - name: acceptedPaymentMethod
+    schema:
+      enumType:
+        enumValues:
+        - displayName: ByBankTransferInAdvance
+          enumValue: byBankTransferInAdvance
+          name: byBankTransferInAdvance
+        - displayName: ByInvoice
+          enumValue: byInvoice
+          name: byInvoice
+        - displayName: Cash
+          enumValue: cash
+          name: cash
+        - displayName: CheckInAdvance
+          enumValue: checkInAdvance
+          name: checkInAdvance
+        - displayName: COD
+          enumValue: COD
+          name: COD
+        - displayName: DirectDebit
+          enumValue: directDebit
+          name: directDebit
+        - displayName: GoogleCheckout
+          enumValue: GoogleCheckout
+          name: GoogleCheckout
+        - displayName: PayPal
+          enumValue: PayPal
+          name: PayPal
+        - displayName: PaySwarm
+          enumValue: PaySwarm
+          name: PaySwarm
+        valueSchema: string
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+#   name: ngsi-ld-city-acceptedpaymentmethod-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-acceptedpaymentmethod
+#   template:
+#     metadata:
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-acceptedpaymentmethod-001
+#         resources: {}
+# status: {}
