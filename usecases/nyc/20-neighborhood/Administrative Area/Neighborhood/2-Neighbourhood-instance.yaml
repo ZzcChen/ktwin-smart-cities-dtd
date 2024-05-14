@@ -1,0 +1,159 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb001
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb002
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb003
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb004
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb005
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb006
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb007
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb008
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb009
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb010
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb011
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb012
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb013
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb014
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb015
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb016
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb017
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb018
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb019
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb020
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
