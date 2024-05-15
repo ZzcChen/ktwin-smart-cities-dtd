@@ -1,0 +1,32 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-roadsegment
+  namespace: ktwin
+spec:
+  displayName: RoadSegment
+  id: ngsi-ld-city-roadsegment
+  relationships:
+  - name: refRoad
+    interface: ngsi-ld-city-road
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+#   name: ngsi-ld-city-roadsegment-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-roadsegment
+#   template:
+#     metadata:
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-roadsegment-001
+#         resources: {}
+#   twinInstanceRelationships:
+#   - name: refRoad-001
+#     interface: ngsi-ld-city-road-001
+# status: {}

@@ -1,0 +1,949 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00001
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00001
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00001
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00001
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00002
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00002
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00002
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00002
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00003
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00003
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00003
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00003
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00004
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00004
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00004
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00004
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00005
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00005
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00005
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00005
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00006
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00006
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00006
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00006
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00007
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00007
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00007
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00007
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00008
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00008
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00008
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00008
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00009
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00009
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00009
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00009
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00010
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00010
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00010
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00010
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00011
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00011
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00011
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00011
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00012
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00012
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00012
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00012
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00013
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00013
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00013
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00013
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00014
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00014
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00014
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00014
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00015
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00015
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00015
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00015
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00016
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00016
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00016
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00016
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00017
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00017
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00017
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00017
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00018
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00018
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00018
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00018
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00019
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00019
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00019
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00019
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00020
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00020
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00020
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00020
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00021
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00021
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00021
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00021
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00022
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00022
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00022
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00022
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00023
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00023
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00023
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00023
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00024
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00024
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00024
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00024
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00025
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00025
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00025
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00025
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00026
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00026
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00026
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00026
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00027
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00027
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00027
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00027
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00028
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00028
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00028
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00028
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00029
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00029
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00029
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00029
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00030
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00030
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00030
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00030
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00031
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00031
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00031
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00031
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00032
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00032
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00032
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00032
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00033
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00033
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00033
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00033
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00034
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00034
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00034
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00034
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00035
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00035
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00035
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00035
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00036
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00036
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00036
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00036
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00037
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00037
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00037
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00037
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00038
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00038
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00038
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00038
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00039
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00039
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00039
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00039
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00040
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00040
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00040
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00040
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00041
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00041
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00041
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00041
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00042
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00042
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00042
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00042
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00043
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00043
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00043
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00043
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00044
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00044
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00044
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00044
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00045
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00045
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00045
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00045
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00046
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00046
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00046
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00046
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00047
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00047
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00047
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00047
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00048
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00048
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00048
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00048
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00049
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00049
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00049
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00049
+    interface: city-pole
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-airqualityobserved-nb035-p00050
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-airqualityobserved
+  twinInstanceRelationships:
+  - name: refDevice
+    instance: ngsi-ld-city-device-aqo-nb035-p00050
+    interface: ngsi-ld-city-device
+  - name: refWeatherObserved
+    instance: ngsi-ld-city-weatherobserved-nb035-p00050
+    interface: ngsi-ld-city-weatherobserved
+  - name: citypole
+    instance: city-pole-nb035-p00050
+    interface: city-pole
+status: {}
