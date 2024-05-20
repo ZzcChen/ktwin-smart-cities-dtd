@@ -149,4 +149,25 @@ spec:
       to an entity of type RoadSegment
     name: refRoadSegment
     interface: ngsi-ld-city-roadsegment
+  service:
+    autoScaling:
+      maxScale: 18
+      #minScale: 0
+      target: 5
+      targetUtilizationPercentage: 65
+      parallelism: 100
+      metric: "concurrency"
+    template:
+      spec:
+        containers:
+        - image: ghcr.io/open-digital-twin/ktwin-traffic-flow-observed-service:0.1
+          imagePullPolicy: IfNotPresent
+          name: traffic-flow-observed
+          resources:
+            requests:
+              memory: "100Mi"
+              cpu: "100m"
+            limits:
+              memory: "100Mi"
+              cpu: "200m"
 status: {}

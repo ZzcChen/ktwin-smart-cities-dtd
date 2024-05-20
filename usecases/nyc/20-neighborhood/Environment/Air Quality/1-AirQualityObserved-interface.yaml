@@ -101,4 +101,25 @@ spec:
   - maxMultiplicity: 1
     name: citypole
     interface: city-pole
+  service:
+    autoScaling:
+      maxScale: 18
+      #minScale: 0
+      target: 5
+      targetUtilizationPercentage: 65
+      parallelism: 100
+      metric: "concurrency"
+    template:
+      spec:
+        containers:
+        - image: ghcr.io/open-digital-twin/ktwin-air-quality-observed-service:0.1
+          imagePullPolicy: IfNotPresent
+          name: air-quality-observed
+          resources:
+            requests:
+              memory: "100Mi"
+              cpu: "100m"
+            limits:
+              memory: "100Mi"
+              cpu: "200m"
 status: {}

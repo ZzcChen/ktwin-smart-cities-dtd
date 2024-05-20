@@ -15,18 +15,14 @@ spec:
     interface: ngsi-ld-city-streetlight
   - name: refAirQualityObserved
     interface: ngsi-ld-city-airqualityobserved
-    aggregateData: true
   - name: refNoiseLevel
     interface: ngsi-ld-city-noiselevelobserved
   - name: refWeather
     interface: ngsi-ld-city-weatherobserved
-    aggregateData: true
   - name: refCrowdFlow
     interface: ngsi-ld-city-crowdflowobserved
-    aggregateData: true
   - name: refTrafficFlow
     interface: ngsi-ld-city-trafficflowobserved
-    aggregateData: true
   commands:
   - name: updateairqualityindex
     comment: Command used update the air quality index in the city pole
