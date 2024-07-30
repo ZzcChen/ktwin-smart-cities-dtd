@@ -1,0 +1,39 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb001
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb002
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb003
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb004
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: s4city-city-neighborhood-nb005
+  namespace: ktwin
+spec:
+  interface: s4city-city-neighborhood

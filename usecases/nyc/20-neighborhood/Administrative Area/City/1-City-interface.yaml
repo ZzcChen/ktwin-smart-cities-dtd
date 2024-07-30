@@ -1,0 +1,15 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: s4city-city-city
+  namespace: ktwin
+spec:
+  description: A city is a large human settlement. A city is distinguished from other
+    human settlements by its relatively great size, but also by its functions and
+    its special symbolic status, which may be conferred by a central authority. (https://en.wikipedia.org/wiki/City)
+  displayName: City
+  extendsInterface: s4city-city-administrativearea
+  id: s4city-city-city
+  relationships:
+  - name: neighborhoods
+    interface: s4city-city-neighborhood

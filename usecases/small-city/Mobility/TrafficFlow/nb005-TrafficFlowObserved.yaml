@@ -1,0 +1,1300 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00001
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00001
+    instance: ngsi-ld-city-roadsegment-nb005-p00001
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00002
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00002
+    instance: ngsi-ld-city-roadsegment-nb005-p00002
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00003
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00003
+    instance: ngsi-ld-city-roadsegment-nb005-p00003
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00004
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00004
+    instance: ngsi-ld-city-roadsegment-nb005-p00004
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00005
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00005
+    instance: ngsi-ld-city-roadsegment-nb005-p00005
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00006
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00006
+    instance: ngsi-ld-city-roadsegment-nb005-p00006
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00007
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00007
+    instance: ngsi-ld-city-roadsegment-nb005-p00007
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00008
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00008
+    instance: ngsi-ld-city-roadsegment-nb005-p00008
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00009
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00009
+    instance: ngsi-ld-city-roadsegment-nb005-p00009
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00010
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00010
+    instance: ngsi-ld-city-roadsegment-nb005-p00010
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00011
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00011
+    instance: ngsi-ld-city-roadsegment-nb005-p00011
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00012
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00012
+    instance: ngsi-ld-city-roadsegment-nb005-p00012
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00013
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00013
+    instance: ngsi-ld-city-roadsegment-nb005-p00013
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00014
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00014
+    instance: ngsi-ld-city-roadsegment-nb005-p00014
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00015
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00015
+    instance: ngsi-ld-city-roadsegment-nb005-p00015
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00016
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00016
+    instance: ngsi-ld-city-roadsegment-nb005-p00016
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00017
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00017
+    instance: ngsi-ld-city-roadsegment-nb005-p00017
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00018
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00018
+    instance: ngsi-ld-city-roadsegment-nb005-p00018
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00019
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00019
+    instance: ngsi-ld-city-roadsegment-nb005-p00019
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00020
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00020
+    instance: ngsi-ld-city-roadsegment-nb005-p00020
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00021
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00021
+    instance: ngsi-ld-city-roadsegment-nb005-p00021
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00022
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00022
+    instance: ngsi-ld-city-roadsegment-nb005-p00022
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00023
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00023
+    instance: ngsi-ld-city-roadsegment-nb005-p00023
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00024
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00024
+    instance: ngsi-ld-city-roadsegment-nb005-p00024
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00025
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00025
+    instance: ngsi-ld-city-roadsegment-nb005-p00025
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00026
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00026
+    instance: ngsi-ld-city-roadsegment-nb005-p00026
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00027
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00027
+    instance: ngsi-ld-city-roadsegment-nb005-p00027
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00028
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00028
+    instance: ngsi-ld-city-roadsegment-nb005-p00028
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00029
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00029
+    instance: ngsi-ld-city-roadsegment-nb005-p00029
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00030
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00030
+    instance: ngsi-ld-city-roadsegment-nb005-p00030
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00031
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00031
+    instance: ngsi-ld-city-roadsegment-nb005-p00031
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00032
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00032
+    instance: ngsi-ld-city-roadsegment-nb005-p00032
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00033
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00033
+    instance: ngsi-ld-city-roadsegment-nb005-p00033
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00034
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00034
+    instance: ngsi-ld-city-roadsegment-nb005-p00034
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00035
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00035
+    instance: ngsi-ld-city-roadsegment-nb005-p00035
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00036
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00036
+    instance: ngsi-ld-city-roadsegment-nb005-p00036
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00037
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00037
+    instance: ngsi-ld-city-roadsegment-nb005-p00037
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00038
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00038
+    instance: ngsi-ld-city-roadsegment-nb005-p00038
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00039
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00039
+    instance: ngsi-ld-city-roadsegment-nb005-p00039
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00040
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00040
+    instance: ngsi-ld-city-roadsegment-nb005-p00040
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00041
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00041
+    instance: ngsi-ld-city-roadsegment-nb005-p00041
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00042
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00042
+    instance: ngsi-ld-city-roadsegment-nb005-p00042
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00043
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00043
+    instance: ngsi-ld-city-roadsegment-nb005-p00043
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00044
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00044
+    instance: ngsi-ld-city-roadsegment-nb005-p00044
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00045
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00045
+    instance: ngsi-ld-city-roadsegment-nb005-p00045
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00046
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00046
+    instance: ngsi-ld-city-roadsegment-nb005-p00046
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00047
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00047
+    instance: ngsi-ld-city-roadsegment-nb005-p00047
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00048
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00048
+    instance: ngsi-ld-city-roadsegment-nb005-p00048
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00049
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00049
+    instance: ngsi-ld-city-roadsegment-nb005-p00049
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00050
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00050
+    instance: ngsi-ld-city-roadsegment-nb005-p00050
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00051
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00051
+    instance: ngsi-ld-city-roadsegment-nb005-p00051
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00052
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00052
+    instance: ngsi-ld-city-roadsegment-nb005-p00052
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00053
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00053
+    instance: ngsi-ld-city-roadsegment-nb005-p00053
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00054
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00054
+    instance: ngsi-ld-city-roadsegment-nb005-p00054
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00055
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00055
+    instance: ngsi-ld-city-roadsegment-nb005-p00055
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00056
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00056
+    instance: ngsi-ld-city-roadsegment-nb005-p00056
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00057
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00057
+    instance: ngsi-ld-city-roadsegment-nb005-p00057
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00058
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00058
+    instance: ngsi-ld-city-roadsegment-nb005-p00058
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00059
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00059
+    instance: ngsi-ld-city-roadsegment-nb005-p00059
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00060
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00060
+    instance: ngsi-ld-city-roadsegment-nb005-p00060
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00061
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00061
+    instance: ngsi-ld-city-roadsegment-nb005-p00061
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00062
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00062
+    instance: ngsi-ld-city-roadsegment-nb005-p00062
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00063
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00063
+    instance: ngsi-ld-city-roadsegment-nb005-p00063
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00064
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00064
+    instance: ngsi-ld-city-roadsegment-nb005-p00064
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00065
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00065
+    instance: ngsi-ld-city-roadsegment-nb005-p00065
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00066
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00066
+    instance: ngsi-ld-city-roadsegment-nb005-p00066
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00067
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00067
+    instance: ngsi-ld-city-roadsegment-nb005-p00067
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00068
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00068
+    instance: ngsi-ld-city-roadsegment-nb005-p00068
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00069
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00069
+    instance: ngsi-ld-city-roadsegment-nb005-p00069
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00070
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00070
+    instance: ngsi-ld-city-roadsegment-nb005-p00070
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00071
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00071
+    instance: ngsi-ld-city-roadsegment-nb005-p00071
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00072
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00072
+    instance: ngsi-ld-city-roadsegment-nb005-p00072
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00073
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00073
+    instance: ngsi-ld-city-roadsegment-nb005-p00073
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00074
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00074
+    instance: ngsi-ld-city-roadsegment-nb005-p00074
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00075
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00075
+    instance: ngsi-ld-city-roadsegment-nb005-p00075
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00076
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00076
+    instance: ngsi-ld-city-roadsegment-nb005-p00076
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00077
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00077
+    instance: ngsi-ld-city-roadsegment-nb005-p00077
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00078
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00078
+    instance: ngsi-ld-city-roadsegment-nb005-p00078
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00079
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00079
+    instance: ngsi-ld-city-roadsegment-nb005-p00079
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00080
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00080
+    instance: ngsi-ld-city-roadsegment-nb005-p00080
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00081
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00081
+    instance: ngsi-ld-city-roadsegment-nb005-p00081
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00082
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00082
+    instance: ngsi-ld-city-roadsegment-nb005-p00082
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00083
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00083
+    instance: ngsi-ld-city-roadsegment-nb005-p00083
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00084
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00084
+    instance: ngsi-ld-city-roadsegment-nb005-p00084
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00085
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00085
+    instance: ngsi-ld-city-roadsegment-nb005-p00085
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00086
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00086
+    instance: ngsi-ld-city-roadsegment-nb005-p00086
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00087
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00087
+    instance: ngsi-ld-city-roadsegment-nb005-p00087
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00088
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00088
+    instance: ngsi-ld-city-roadsegment-nb005-p00088
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00089
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00089
+    instance: ngsi-ld-city-roadsegment-nb005-p00089
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00090
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00090
+    instance: ngsi-ld-city-roadsegment-nb005-p00090
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00091
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00091
+    instance: ngsi-ld-city-roadsegment-nb005-p00091
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00092
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00092
+    instance: ngsi-ld-city-roadsegment-nb005-p00092
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00093
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00093
+    instance: ngsi-ld-city-roadsegment-nb005-p00093
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00094
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00094
+    instance: ngsi-ld-city-roadsegment-nb005-p00094
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00095
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00095
+    instance: ngsi-ld-city-roadsegment-nb005-p00095
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00096
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00096
+    instance: ngsi-ld-city-roadsegment-nb005-p00096
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00097
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00097
+    instance: ngsi-ld-city-roadsegment-nb005-p00097
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00098
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00098
+    instance: ngsi-ld-city-roadsegment-nb005-p00098
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00099
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00099
+    instance: ngsi-ld-city-roadsegment-nb005-p00099
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: ngsi-ld-city-trafficflowobserved-nb005-p00100
+  namespace: ktwin
+spec:
+  interface: ngsi-ld-city-trafficflowobserved
+  twinInstanceRelationships:
+  - name: refRoadSegment-nb005-p00100
+    instance: ngsi-ld-city-roadsegment-nb005-p00100
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---

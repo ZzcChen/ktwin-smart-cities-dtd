@@ -1,0 +1,86 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: ngsi-ld-city-allowedvehicletype
+  namespace: ktwin
+spec:
+  displayName: AllowedVehicleType
+  id: ngsi-ld-city-allowedvehicletype
+  properties:
+  - name: allowedVehicleType
+    schema:
+      enumType:
+        enumValues:
+        - displayName: AgriculturalVehicle
+          enumValue: agriculturalVehicle
+          name: agriculturalVehicle
+        - displayName: AnyVehicle
+          enumValue: anyVehicle
+          name: anyVehicle
+        - displayName: Bicycle
+          enumValue: bicycle
+          name: bicycle
+        - displayName: Bus
+          enumValue: bus
+          name: bus
+        - displayName: Car
+          enumValue: car
+          name: car
+        - displayName: Caravan
+          enumValue: caravan
+          name: caravan
+        - displayName: CarWithCaravan
+          enumValue: carWithCaravan
+          name: carWithCaravan
+        - displayName: CarWithTrailer
+          enumValue: carWithTrailer
+          name: carWithTrailer
+        - displayName: ConstructionOrMaintenanceVehicle
+          enumValue: constructionOrMaintenanceVehicle
+          name: constructionOrMaintenanceVehicle
+        - displayName: Lorry
+          enumValue: lorry
+          name: lorry
+        - displayName: Moped
+          enumValue: moped
+          name: moped
+        - displayName: Motorcycle
+          enumValue: motorcycle
+          name: motorcycle
+        - displayName: MotorcycleWithSideCar
+          enumValue: motorcycleWithSideCar
+          name: motorcycleWithSideCar
+        - displayName: Motorscooter
+          enumValue: motorscooter
+          name: motorscooter
+        - displayName: Tanker
+          enumValue: tanker
+          name: tanker
+        - displayName: Trailer
+          enumValue: trailer
+          name: trailer
+        - displayName: Van
+          enumValue: van
+          name: van
+        valueSchema: string
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-allowedvehicletype-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-allowedvehicletype
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-allowedvehicletype-001
+#         resources: {}
+# status: {}

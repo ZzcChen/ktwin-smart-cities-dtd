@@ -1,0 +1,60 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-device
+  namespace: ktwin
+spec:
+  displayName: Device
+  id: ngsi-ld-city-device
+  properties:
+  - name: dataProvider
+    schema:
+      primitiveType: string
+    writable: true
+  - name: dateModified
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: dateCreated
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: dateObserved
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: source
+    schema:
+      primitiveType: string
+    writable: true
+  - description: level of the battery
+    name: batteryLevel
+    schema:
+      primitiveType: string
+    writable: true
+  relationships:
+  - maxMultiplicity: 1
+    name: refDeviceModel
+    interface: ngsi-ld-city-devicemodel
+  service:
+    autoScaling:
+      maxScale: 18
+      #minScale: 0
+      target: 5
+      targetUtilizationPercentage: 65
+      parallelism: 100
+      metric: "concurrency"
+    template:
+      spec:
+        containers:
+        - image: ghcr.io/open-digital-twin/ktwin-device-service:0.1
+          imagePullPolicy: IfNotPresent
+          name: device
+          resources:
+            requests:
+              memory: "64Mi"
+              cpu: "100m"
+            limits:
+              memory: "128Mi"
+              cpu: "200m"
+status: {}

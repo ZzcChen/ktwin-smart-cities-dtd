@@ -1,0 +1,12 @@
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+#   name: ngsi-ld-city-onstreetparking-nb001-onp0001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-onstreetparking
+#   twinInstanceRelationships:
+#   - name: refParkingGroup
+#     instance: ngsi-ld-city-parkinggroup-nb001-onp0001
+#     interface: ngsi-ld-city-parkinggroup
+# status: {}

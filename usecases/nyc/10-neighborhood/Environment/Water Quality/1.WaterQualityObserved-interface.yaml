@@ -1,0 +1,66 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-waterqualityobserved
+  namespace: ktwin
+spec:
+  displayName: WaterQualityObserved
+  extendsInterface: ngsi-ld-city-environmentbasemodel
+  id: ngsi-ld-city-waterqualityobserved
+  properties:
+  - name: Chla
+    schema:
+      primitiveType: double
+  - name: ClDensity
+    schema:
+      primitiveType: double
+  - name: NH3Density
+    schema:
+      primitiveType: double
+  - name: NH4Density
+    schema:
+      primitiveType: double
+  - name: NO3Density
+    schema:
+      primitiveType: double
+  - name: O2Density
+    schema:
+      primitiveType: double
+  - name: PCDensity
+    schema:
+      primitiveType: double
+  - name: PEDensity
+    schema:
+      primitiveType: double
+  - name: conductanceCurrent
+    schema:
+      primitiveType: double
+  - name: conductivityCurrent
+    schema:
+      primitiveType: double
+  - name: orpVoltage
+    schema:
+      primitiveType: double
+  - name: pH
+    schema:
+      primitiveType: double
+  - name: salinityDensity
+    schema:
+      primitiveType: double
+  - name: tdsDensity
+    schema:
+      primitiveType: double
+  - name: tssDensity
+    schema:
+      primitiveType: double
+  - name: temperature
+    schema:
+      primitiveType: double
+  - name: turbidityDistance
+    schema:
+      primitiveType: double
+  telemetries:
+  - name: measurand
+    schema:
+      primitiveType: string
+status: {}

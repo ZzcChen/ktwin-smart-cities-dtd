@@ -1,0 +1,1549 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00001
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00001
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00001
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00001
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00001
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00001
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00001
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00002
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00002
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00002
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00002
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00002
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00002
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00002
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00003
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00003
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00003
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00003
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00003
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00003
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00003
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00004
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00004
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00004
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00004
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00004
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00004
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00004
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00005
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00005
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00005
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00005
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00005
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00005
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00005
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00006
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00006
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00006
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00006
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00006
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00006
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00006
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00007
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00007
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00007
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00007
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00007
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00007
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00007
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00008
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00008
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00008
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00008
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00008
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00008
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00008
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00009
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00009
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00009
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00009
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00009
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00009
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00009
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00010
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00010
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00010
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00010
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00010
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00010
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00010
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00011
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00011
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00011
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00011
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00011
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00011
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00011
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00012
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00012
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00012
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00012
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00012
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00012
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00012
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00013
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00013
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00013
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00013
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00013
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00013
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00013
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00014
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00014
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00014
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00014
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00014
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00014
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00014
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00015
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00015
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00015
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00015
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00015
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00015
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00015
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00016
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00016
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00016
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00016
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00016
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00016
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00016
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00017
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00017
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00017
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00017
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00017
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00017
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00017
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00018
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00018
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00018
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00018
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00018
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00018
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00018
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00019
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00019
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00019
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00019
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00019
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00019
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00019
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00020
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00020
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00020
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00020
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00020
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00020
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00020
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00021
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00021
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00021
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00021
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00021
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00021
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00021
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00022
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00022
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00022
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00022
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00022
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00022
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00022
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00023
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00023
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00023
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00023
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00023
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00023
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00023
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00024
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00024
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00024
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00024
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00024
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00024
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00024
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00025
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00025
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00025
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00025
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00025
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00025
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00025
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00026
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00026
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00026
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00026
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00026
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00026
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00026
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00027
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00027
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00027
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00027
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00027
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00027
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00027
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00028
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00028
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00028
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00028
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00028
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00028
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00028
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00029
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00029
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00029
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00029
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00029
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00029
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00029
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00030
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00030
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00030
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00030
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00030
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00030
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00030
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00031
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00031
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00031
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00031
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00031
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00031
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00031
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00032
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00032
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00032
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00032
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00032
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00032
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00032
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00033
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00033
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00033
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00033
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00033
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00033
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00033
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00034
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00034
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00034
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00034
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00034
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00034
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00034
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00035
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00035
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00035
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00035
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00035
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00035
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00035
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00036
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00036
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00036
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00036
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00036
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00036
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00036
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00037
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00037
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00037
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00037
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00037
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00037
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00037
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00038
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00038
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00038
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00038
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00038
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00038
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00038
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00039
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00039
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00039
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00039
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00039
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00039
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00039
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00040
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00040
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00040
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00040
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00040
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00040
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00040
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00041
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00041
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00041
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00041
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00041
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00041
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00041
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00042
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00042
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00042
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00042
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00042
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00042
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00042
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00043
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00043
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00043
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00043
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00043
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00043
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00043
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00044
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00044
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00044
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00044
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00044
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00044
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00044
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00045
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00045
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00045
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00045
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00045
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00045
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00045
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00046
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00046
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00046
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00046
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00046
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00046
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00046
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00047
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00047
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00047
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00047
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00047
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00047
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00047
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00048
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00048
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00048
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00048
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00048
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00048
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00048
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00049
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00049
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00049
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00049
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00049
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00049
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00049
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}
+---
+apiVersion: dtd.ktwin/v0
+kind: TwinInstance
+metadata:
+  name: city-pole-nb007-p00050
+  namespace: ktwin
+spec:
+  interface: city-pole
+  twinInstanceRelationships:
+  - instance: s4city-city-neighborhood-nb007
+    interface: s4city-city-neighborhood
+    name: refNeighborhood
+  - instance: ngsi-ld-city-streetlight-nb007-p00050
+    interface: ngsi-ld-city-streetlight
+    name: refStreetlight
+  - instance: ngsi-ld-city-airqualityobserved-nb007-p00050
+    interface: ngsi-ld-city-airqualityobserved
+    name: refAirQualityObserved
+  - instance: ngsi-ld-city-noiselevelobserved-nb007-p00050
+    interface: ngsi-ld-city-noiselevelobserved
+    name: refNoiseLevel
+  - instance: ngsi-ld-city-weatherobserved-nb007-p00050
+    interface: ngsi-ld-city-weatherobserved
+    name: refWeather
+  - instance: ngsi-ld-city-crowdflowobserved-nb007-p00050
+    interface: ngsi-ld-city-crowdflowobserved
+    name: refCrowdFlow
+  - instance: ngsi-ld-city-trafficflowobserved-nb007-p00050
+    interface: ngsi-ld-city-trafficflowobserved
+    name: refTrafficFlow
+status: {}

@@ -1,0 +1,45 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: ngsi-ld-city-devicemodel
+  namespace: ktwin
+spec:
+  displayName: DeviceModel
+  id: ngsi-ld-city-devicemodel
+  properties:
+  - description: A sequence of characters giving the source of the entity data
+    name: source
+    schema:
+      primitiveType: string
+    writable: true
+  - description: Specifies the URL to information about the provider of this information
+    name: dataProvider
+    schema:
+      primitiveType: string
+    writable: true
+  - description: The timestamp when the data was updated
+    name: dateModified
+    schema:
+      primitiveType: dateTime
+    writable: true
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-devicemodel-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-devicemodel
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-devicemodel-001
+#         resources: {}
+# status: {}

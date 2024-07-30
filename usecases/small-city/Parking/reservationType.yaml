@@ -1,0 +1,44 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-reservationtype
+  namespace: ktwin
+spec:
+  displayName: ReservationType
+  id: ngsi-ld-city-reservationtype
+  properties:
+  - name: reservationType
+    schema:
+      enumType:
+        enumValues:
+        - displayName: Mandatory
+          enumValue: mandatory
+          name: mandatory
+        - displayName: NotAvailable
+          enumValue: notAvailable
+          name: notAvailable
+        - displayName: Optional
+          enumValue: optional
+          name: optional
+        - displayName: Partly
+          enumValue: partly
+          name: partly
+        valueSchema: string
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+#   name: ngsi-ld-city-reservationtype-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-reservationtype
+#   template:
+#     metadata:
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-reservationtype-001
+#         resources: {}
+# status: {}

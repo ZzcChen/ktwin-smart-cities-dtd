@@ -1,0 +1,42 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: geosparql-spatialobject
+  namespace: ktwin
+spec:
+  description: Spatial-object represents everything that can have a spatial representation.
+    It is superclass of feature and geometry. GeoSPARQL 1.0 is an OGC Standard.Copyright
+    (c) 2012 Open Geospatial Consortium.
+  displayName: Spatial Object
+  id: geosparql-spatialobject
+  relationships:
+  - name: Contains
+    interface: geosparql-spatialobject
+  - name: Within
+    interface: geosparql-spatialobject
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: geosparql-spatialobject-001
+#   namespace: ktwin
+# spec:
+#   interface: geosparql-spatialobject
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: geosparql-spatialobject-001
+#         resources: {}
+#   twinInstanceRelationships:
+#   - name: Contains-001
+#     interface: geosparql-spatialobject-001
+#   - name: Within-001
+#     interface: geosparql-spatialobject-001
+# status: {}

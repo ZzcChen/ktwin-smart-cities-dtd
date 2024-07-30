@@ -1,0 +1,104 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-weatherobserved
+  namespace: ktwin
+spec:
+  displayName: WeatherObserved
+  extendsInterface: ngsi-ld-city-environmentbasemodel
+  id: ngsi-ld-city-weatherobserved
+  properties:
+  - name: weatherType
+    schema:
+      primitiveType: string
+    writable: true
+  - name: stationCode
+    schema:
+      primitiveType: string
+    writable: true
+  - name: stationName
+    schema:
+      primitiveType: string
+    writable: true
+  - name: pressureTendency
+    schema:
+      enumType:
+        enumValues:
+        - displayName: Raising
+          enumValue: raising
+          name: raising
+        - displayName: Steady
+          enumValue: steady
+          name: steady
+        - displayName: Falling
+          enumValue: falling
+          name: falling
+        valueSchema: string
+  - name: atmosphericPressure
+    schema:
+      primitiveType: double
+  - name: dewpoint
+    schema:
+      primitiveType: double
+  - name: FeelsLikeTemperature
+    schema:
+      primitiveType: double
+  - name: temperature
+    schema:
+      primitiveType: double
+  - name: illuminance
+    schema:
+      primitiveType: double
+  - name: precipitation
+    schema:
+      primitiveType: double
+  - name: relativeHumidity
+    schema:
+      primitiveType: double
+  - name: snowHeight
+    schema:
+      primitiveType: double
+  - name: solarRadiation
+    schema:
+      primitiveType: double
+  - name: streamGauge
+    schema:
+      primitiveType: double
+  - name: uVIndexMax
+    schema:
+      primitiveType: double
+  - name: visibility
+    schema:
+      primitiveType: double
+  - name: WindDirection
+    schema:
+      primitiveType: double
+  - name: WindSpeed
+    schema:
+      primitiveType: double
+  relationships:
+  - maxMultiplicity: 1
+    name: refDevice
+    interface: ngsi-ld-city-device
+  service:
+    autoScaling:
+      maxScale: 18
+      #minScale: 0
+      target: 5
+      targetUtilizationPercentage: 65
+      parallelism: 100
+      metric: "concurrency"
+    template:
+      spec:
+        containers:
+        - image: ghcr.io/open-digital-twin/ktwin-weather-observed-service:0.1
+          imagePullPolicy: IfNotPresent
+          name: weather-observed
+          resources:
+            requests:
+              memory: "100Mi"
+              cpu: "100m"
+            limits:
+              memory: "100Mi"
+              cpu: "200m"
+status: {}

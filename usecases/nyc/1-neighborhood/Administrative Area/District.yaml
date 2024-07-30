@@ -1,0 +1,31 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: s4city-city-district
+  namespace: ktwin
+spec:
+  description: A district is a type of administrative division that, in some countries,
+    is managed by local government. Across the world, areas known as 'districts' vary
+    greatly in size, spanning regions or counties, several municipalities, subdivisions
+    of municipalities, school district, or political district. (https://en.wikipedia.org/wiki/District)
+  displayName: District
+  extendsInterface: s4city-city-administrativearea
+  id: s4city-city-district
+status: {}
+#---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+#   name: s4city-city-district-001
+#   namespace: ktwin
+# spec:
+#   interface: s4city-city-district
+#   template:
+#     metadata:
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: s4city-city-district-001
+#         resources: {}
+# status: {}

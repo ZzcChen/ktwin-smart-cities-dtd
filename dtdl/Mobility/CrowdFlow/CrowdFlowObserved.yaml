@@ -1,0 +1,91 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-crowdflowobserved
+  namespace: ktwin
+spec:
+  eventStore:
+    persistRealEvent: true
+    persistVirtualEvent: true
+  displayName: CrowdFlowObserved
+  extendsInterface: ngsi-ld-city-environmentbasemodel
+  id: ngsi-ld-city-crowdflowobserved
+  properties:
+  - name: dateObservedFrom
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - name: dateObservedTo
+    schema:
+      primitiveType: dateTime
+    writable: true
+  - description: Property. Fraction of the observation time where a person has been
+      occupying the observed walkway.
+    name: occupancy
+    schema:
+      primitiveType: boolean
+    writable: true
+  - description: Average speed of the crowd transiting during the observation period.
+      Units:'Kilometer per hour (Km/h).'
+    name: averageCrowdSpeed
+    schema:
+      primitiveType: integer
+    writable: true
+  - description: Flags whether there was a crowd congestion during the observation
+      period in the referred walkway. The absence of this attribute means no crowd
+      congestion.
+    name: congested
+    schema:
+      primitiveType: boolean
+    writable: true
+  - description: |-
+      Average headway time. Headway time is the time
+          elapsed between two consecutive persons.Units:'second (s)'
+    name: averageHeadwayTime
+    schema:
+      primitiveType: double
+    writable: true
+  - description: Usual direction of travel in the walkway referred by this observation
+      with respect to the city center. Enum:'inbound, outbound'
+    name: direction
+    schema:
+      enumType:
+        enumValues:
+        - displayName: Inbound
+          enumValue: inbound
+          name: inbound
+        - displayName: Outbound
+          enumValue: outbound
+          name: outbound
+        valueSchema: string
+    writable: true
+  - name: peopleCount
+    schema:
+      primitiveType: integer
+  relationships:
+  - description: Concerned road segment on which the observation has been made. Model:'https://schema.org/URL
+    name: refRoadSegment
+    interface: ngsi-ld-city-roadsegment
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-crowdflowobserved-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-crowdflowobserved
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-crowdflowobserved-001
+#         resources: {}
+#   twinInstanceRelationships:
+#   - name: refRoadSegment-001
+#     interface: ngsi-ld-city-roadsegment-001
+# status: {}

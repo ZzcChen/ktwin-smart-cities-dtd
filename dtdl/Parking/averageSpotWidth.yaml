@@ -1,0 +1,33 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+
+  name: ngsi-ld-city-averagespotwidth
+  namespace: ktwin
+spec:
+  displayName: AverageSpotWidth
+  id: ngsi-ld-city-averagespotwidth
+  properties:
+  - name: averageSpotWidth
+    schema:
+      primitiveType: double
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+
+#   name: ngsi-ld-city-averagespotwidth-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-averagespotwidth
+#   template:
+#     metadata:
+    
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-averagespotwidth-001
+#         resources: {}
+# status: {}

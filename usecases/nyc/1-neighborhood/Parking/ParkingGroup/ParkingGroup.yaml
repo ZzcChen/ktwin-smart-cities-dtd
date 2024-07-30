@@ -1,0 +1,135 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-parkinggroup
+  namespace: ktwin
+spec:
+  displayName: ParkingGroup
+  extendsInterface: ngsi-ld-city-ngsildbasemodel
+  id: ngsi-ld-city-parkinggroup
+  properties:
+  - name: allowedVehicleType
+    schema:
+      enumType:
+        enumValues:
+        - displayName: Bicycle
+          enumValue: bicycle
+          name: bicycle
+        - displayName: Bus
+          enumValue: bus
+          name: bus
+        - displayName: Car
+          enumValue: car
+          name: car
+        - displayName: Caravan
+          enumValue: caravan
+          name: caravan
+        - displayName: Motorcycle
+          enumValue: motorcycle
+          name: motorcycle
+        - displayName: Motorscooter
+          enumValue: motorscooter
+          name: motorscooter
+        - displayName: Truck
+          enumValue: truck
+          name: truck
+        valueSchema: string
+    writable: true
+  - name: category
+    schema:
+      enumType:
+        enumValues:
+        - displayName: AdjacentSpaces
+          enumValue: adjacentSpaces
+          name: adjacentSpaces
+        - displayName: BlueZone
+          enumValue: blueZone
+          name: blueZone
+        - displayName: CompleteFloor
+          enumValue: completeFloor
+          name: completeFloor
+        - displayName: Free
+          enumValue: free
+          name: free
+        - displayName: FeeCharged
+          enumValue: feeCharged
+          name: feeCharged
+        - displayName: GreenZone
+          enumValue: greenZone
+          name: greenZone
+        - displayName: LoadUnloadZone
+          enumValue: loadUnloadZone
+          name: loadUnloadZone
+        - displayName: NonAdjacentSpaces
+          enumValue: nonAdjacentSpaces
+          name: nonAdjacentSpaces
+        - displayName: OffStreet
+          enumValue: offStreet
+          name: offStreet
+        - displayName: OnlyDisabled
+          enumValue: onlyDisabled
+          name: onlyDisabled
+        - displayName: OnlyElectricalCharging
+          enumValue: onlyElectricalCharging
+          name: onlyElectricalCharging
+        - displayName: OnlyResidents
+          enumValue: onlyResidents
+          name: onlyResidents
+        - displayName: OnlyWithPermit
+          enumValue: onlyWithPermit
+          name: onlyWithPermit
+        - displayName: OnStreet
+          enumValue: OnStreet
+          name: onStreet
+        - displayName: ParticularConditionsSpaces
+          enumValue: particularConditionsSpaces
+          name: particularConditionsSpaces
+        - displayName: ShortTermMediumTermLongTerm
+          enumValue: shortTermMediumTermLongTerm
+          name: shortTermMediumTermLongTerm
+        - displayName: StatisticsOnly
+          enumValue: statisticsOnly
+          name: statisticsOnly
+        - displayName: VehicleTypeSpaces
+          enumValue: vehicleTypeSpaces
+          name: vehicleTypeSpaces
+        valueSchema: string
+    writable: true
+  - name: requiredPermit
+    schema:
+      primitiveType: string
+    writable: true
+  relationships:
+  - maxMultiplicity: 1
+    name: refOnStreetParking
+    interface: ngsi-ld-city-onstreetparking
+  - maxMultiplicity: 1
+    name: refOffStreetParking
+    interface: ngsi-ld-city-offstreetparking
+  - name: refParkingSpot
+    interface: ngsi-ld-city-parkingspot
+status: {}
+---
+# apiVersion: dtd.ktwin/v0
+# kind: TwinInstance
+# metadata:
+#   name: ngsi-ld-city-parkinggroup-001
+#   namespace: ktwin
+# spec:
+#   interface: ngsi-ld-city-parkinggroup
+#   template:
+#     metadata:
+#     spec:
+#       containers:
+#       - image: dev.local/ktwin/edge-service:0.1
+#         imagePullPolicy: IfNotPresent
+#         name: ngsi-ld-city-parkinggroup-001
+#         resources: {}
+#   twinInstanceRelationships:
+#   - name: refOnStreetParking-001
+#     interface: ngsi-ld-city-onstreetparking-001
+#   - name: refOffStreetParking-001
+#     interface: ngsi-ld-city-offstreetparking-001
+#   - name: refParkingSpot-001
+#     interface: ngsi-ld-city-parkingspot-001
+# status: {}

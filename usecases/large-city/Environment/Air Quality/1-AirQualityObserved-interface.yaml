@@ -1,0 +1,104 @@
+apiVersion: dtd.ktwin/v0
+kind: TwinInterface
+metadata:
+  name: ngsi-ld-city-airqualityobserved
+  namespace: ktwin
+spec:
+  displayName: AirQualityObserved
+  extendsInterface: ngsi-ld-city-environmentbasemodel
+  id: ngsi-ld-city-airqualityobserved
+  properties:
+  - name: airQualityIndex
+    schema:
+      primitiveType: double
+    writable: true
+  - name: reliability
+    schema:
+      primitiveType: double
+    writable: true
+  - name: volatileOrganicCompoundsTotal
+    schema:
+      primitiveType: integer
+    writable: true
+  - name: typeOfLocation
+    schema:
+      enumType:
+        enumValues:
+        - displayName: Inside
+          enumValue: inside
+          name: inside
+        - displayName: Outside
+          enumValue: outside
+          name: outside
+        valueSchema: string
+  - name: CO2Density
+    schema:
+      primitiveType: double
+  - name: CODensity
+    schema:
+      primitiveType: double
+  - name: PM1Density
+    schema:
+      primitiveType: double
+  - name: PM10Density
+    schema:
+      primitiveType: double
+  - name: PM25Density
+    schema:
+      primitiveType: double
+  - name: NODensity
+    schema:
+      primitiveType: double
+  - name: SO2Density
+    schema:
+      primitiveType: double
+  - name: C6H6Density
+    schema:
+      primitiveType: double
+  - name: NIDensity
+    schema:
+      primitiveType: double
+  - name: ASDensity
+    schema:
+      primitiveType: double
+  - name: CDDensity
+    schema:
+      primitiveType: double
+  - name: NO2Density
+    schema:
+      primitiveType: double
+  - name: O3Density
+    schema:
+      primitiveType: double
+  - name: PBDensity
+    schema:
+      primitiveType: double
+  - name: SH2Density
+    schema:
+      primitiveType: double
+  - name: precipitation
+    schema:
+      primitiveType: double
+  - name: relativeHumidity
+    schema:
+      primitiveType: double
+  - name: temperature
+    schema:
+      primitiveType: double
+  - name: WindDirection
+    schema:
+      primitiveType: double
+  - name: WindSpeed
+    schema:
+      primitiveType: double
+  relationships:
+  - maxMultiplicity: 1
+    name: refDevice
+    interface: ngsi-ld-city-device
+  - maxMultiplicity: 1
+    name: refWeatherObserved
+    interface: ngsi-ld-city-weatherobserved
+  - maxMultiplicity: 1
+    name: citypole
+    interface: city-pole
+status: {}
