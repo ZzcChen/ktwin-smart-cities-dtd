@@ -44,7 +44,7 @@ spec:
     template:
       spec:
         containers:
-        - image: ghcr.io/open-digital-twin/ktwin-device-service:0.1
+        - image: docker.io/fitzzzc/ktwin-device-service:0.1 # change to your image
           imagePullPolicy: IfNotPresent
           name: device
           resources: {}
