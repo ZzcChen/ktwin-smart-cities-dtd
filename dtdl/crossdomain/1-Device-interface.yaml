@@ -38,7 +38,8 @@ spec:
     interface: ngsi-ld-city-devicemodel
   service:
     autoScaling:
-      maxScale: 20
+      maxScale: 1       # TODO 20 -> 1: for testing
+      minScale: 1       # TODO: Ensure at least 1 pod is always running for testing, can be deleted when in production
       target: 1
       metric: "concurrency"
     template:
